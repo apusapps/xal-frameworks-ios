@@ -1,0 +1,16 @@
+PODS:
+  - XALFrameworks (0.1.0)
+
+DEPENDENCIES:
+  - XALFrameworks (from `../`)
+
+EXTERNAL SOURCES:
+  XALFrameworks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XALFrameworks: 0d5e3ef9e8262345e0c463ae3fc35bac32ac9ee6
+
+PODFILE CHECKSUM: 6eae83c8a758308037e07417327a200a67077ec4
+
+COCOAPODS: 1.7.1

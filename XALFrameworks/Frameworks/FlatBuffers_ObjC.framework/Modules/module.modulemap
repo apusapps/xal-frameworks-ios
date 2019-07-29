@@ -1,0 +1,6 @@
+framework module FlatBuffers_ObjC {
+  umbrella header "FlatBuffers-ObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

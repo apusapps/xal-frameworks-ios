@@ -1,0 +1,22 @@
+{
+  "name": "XALFrameworks",
+  "version": "0.1.0",
+  "summary": "A short description of XALFrameworks.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xueminlee/XALFrameworks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xueminlee": "lixuemin@apusapps.com"
+  },
+  "source": {
+    "git": "https://github.com/xueminlee/XALFrameworks.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XALFrameworks/Frameworks/**/*"
+}
