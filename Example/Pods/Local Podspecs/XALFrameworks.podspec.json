@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of XALFrameworks.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xueminlee/XALFrameworks",
+  "homepage": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xueminlee": "lixuemin@apusapps.com"
   },
   "source": {
-    "git": "https://github.com/xueminlee/XALFrameworks.git",
+    "git": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git",
     "tag": "0.1.0"
   },
   "platforms": {

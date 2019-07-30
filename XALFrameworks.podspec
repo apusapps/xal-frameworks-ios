@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xueminlee/XALFrameworks'
+  s.homepage         = 'https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xueminlee' => 'lixuemin@apusapps.com' }
-  s.source           = { :git => 'https://github.com/xueminlee/XALFrameworks.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
