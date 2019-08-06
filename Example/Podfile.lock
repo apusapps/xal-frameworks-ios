@@ -41,6 +41,7 @@ PODS:
     - XALFrameworks/APSLibraryAdapter (= 0.1.1)
     - XALFrameworks/APSLogServer (= 0.1.1)
     - XALFrameworks/APSMiddleware (= 0.1.1)
+    - XALFrameworks/APSRouter (= 0.1.1)
     - XALFrameworks/APSSdkService (= 0.1.1)
     - XALFrameworks/APSSupport3rd (= 0.1.1)
     - XALFrameworks/APSUtilities (= 0.1.1)
@@ -77,6 +78,7 @@ PODS:
   - XALFrameworks/APSLogServer (0.1.1):
     - GCDWebServer (= 3.5.2)
   - XALFrameworks/APSMiddleware (0.1.1)
+  - XALFrameworks/APSRouter (0.1.1)
   - XALFrameworks/APSSdkService (0.1.1)
   - XALFrameworks/APSSupport3rd (0.1.1):
     - Adjust (= 4.18.0)
@@ -119,7 +121,7 @@ SPEC CHECKSUMS:
   GCDWebServer: ead88cd14596dd4eae4f5830b8877c87c8728990
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  XALFrameworks: 2d8dd284fe2cfaad25a4141e7d337b151c650357
+  XALFrameworks: f010a0fdaec4a8672861158d7a6a01bca55c19dc
 
 PODFILE CHECKSUM: 6eae83c8a758308037e07417327a200a67077ec4
 

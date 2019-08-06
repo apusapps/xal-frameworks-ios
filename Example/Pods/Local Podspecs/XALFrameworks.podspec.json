@@ -204,6 +204,12 @@
           "1.5.3"
         ]
       }
+    },
+    {
+      "name": "APSRouter",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSRouter.framework"
+      }
     }
   ]
 }
