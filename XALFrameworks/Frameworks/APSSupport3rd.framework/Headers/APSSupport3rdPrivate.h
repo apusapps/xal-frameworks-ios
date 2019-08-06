@@ -45,16 +45,5 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 #endif
 
-#if BRANCH_POD_INCLUDE
-@interface APSBranchManager (protect)
-
-//+ (instancetype)shared;
-- (void)start;
-- (void)logEvent:(nonnull NSString *)eventName;
-- (void)logEvent:(nonnull NSString *)eventName withParameters:(nullable NSDictionary *)parameters;
-
-@end
-#endif
-
 
 NS_ASSUME_NONNULL_END

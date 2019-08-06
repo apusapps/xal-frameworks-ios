@@ -14,7 +14,6 @@
 #import "APSSupport3rdPrivate.h"
 #import "APSSupport3rdSDK.h"
 #import "APSSupport3rdSDKFactory.h"
-#import "APSBranchManager.h"
 #import "APSDuManager.h"
 #import "APSFlurryManager.h"
 

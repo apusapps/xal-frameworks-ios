@@ -16,10 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (void)getDuDeviceIdBlock:(void(^)(NSString *_Nullable deviceID))block;
 @optional
-- (void)logBranchEvent:(NSString *)eventName;
-@optional
-- (void)logBranchEvent:(NSString *)eventName withParameters:(nullable NSDictionary *)parameters;
-@optional
 - (void)logFlurryEvent:(NSString *)eventName;
 @optional
 - (void)logFlurryEvent:(NSString *)eventName withParameters:(nullable NSDictionary *)parameters;

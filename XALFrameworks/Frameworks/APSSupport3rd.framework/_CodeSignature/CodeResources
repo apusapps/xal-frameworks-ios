@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/APSBranchManager.h</key>
-		<data>
-		LeshzvvBz0lPbwKtc6TYtambbzk=
-		</data>
 		<key>Headers/APSDuManager.h</key>
 		<data>
 		afjYuqIiG/hqwSm2tHfKnX8tJoE=
@@ -18,7 +14,7 @@
 		</data>
 		<key>Headers/APSSupport3rd-umbrella.h</key>
 		<data>
-		Di2RhlHV7SEus0U/4kYiRhIyaaQ=
+		GxNiorAdOwksr2+plPAX481O1VU=
 		</data>
 		<key>Headers/APSSupport3rdManager.h</key>
 		<data>
@@ -26,7 +22,7 @@
 		</data>
 		<key>Headers/APSSupport3rdPrivate.h</key>
 		<data>
-		UE1quEUCWM5KtiUKjYVkAFJ5UP8=
+		bb10MkD13C80y13WcnEztELgtdU=
 		</data>
 		<key>Headers/APSSupport3rdSDK.h</key>
 		<data>
@@ -47,17 +43,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/APSBranchManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LeshzvvBz0lPbwKtc6TYtambbzk=
-			</data>
-			<key>hash2</key>
-			<data>
-			e0GAmCw/Ils7nuzcmWWmtUP1mGCul0fLvlysAwutjD8=
-			</data>
-		</dict>
 		<key>Headers/APSDuManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -84,11 +69,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Di2RhlHV7SEus0U/4kYiRhIyaaQ=
+			GxNiorAdOwksr2+plPAX481O1VU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QxW4xmo5oAvVPie1war7K0eXl0Psy/6Tf229GPCMis4=
+			XaUCTtVRQHP2B5WqUcKkCy4JkR6cnMqQA+XO8UbnGVY=
 			</data>
 		</dict>
 		<key>Headers/APSSupport3rdManager.h</key>
@@ -106,11 +91,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UE1quEUCWM5KtiUKjYVkAFJ5UP8=
+			bb10MkD13C80y13WcnEztELgtdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			un7IYuuwIAn01zWRe2lfmz/hlUx3JWYCp7dsMTspRvU=
+			s26TmRYOXxCxLTMNCLqwUmCsgILFt4w2Ov15HUrL6Q8=
 			</data>
 		</dict>
 		<key>Headers/APSSupport3rdSDK.h</key>
