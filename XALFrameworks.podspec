@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC
@@ -42,6 +42,7 @@ TODO: Add long description of the pod here.
       ss.dependency 'XALFrameworks/APSZeus'
       ss.dependency 'XALFrameworks/APSMiddleware'
       ss.dependency 'XALFrameworks/APSSdkService'
+      ss.dependency 'XALFrameworks/APSUtilities'
       
       ss.dependency 'FMDB', '2.7.5'
       ss.dependency 'FlatBuffers-ObjC', '0.0.2'
@@ -51,7 +52,6 @@ TODO: Add long description of the pod here.
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSAlex.framework"
       ss.dependency 'XALFrameworks/APSUtilities'
       ss.dependency 'XALFrameworks/APSZeus'
-      ss.dependency 'XALFrameworks/APSCompression'
       ss.dependency 'XALFrameworks/APSMiddleware'
       ss.dependency 'XALFrameworks/APSSdkService'
       
@@ -65,7 +65,6 @@ TODO: Add long description of the pod here.
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"
       
       ss.dependency 'Adjust', '4.18.0'
-      ss.dependency 'Branch', '0.27.1'
       ss.dependency 'Flurry-iOS-SDK', '9.3.1'
       
   end
