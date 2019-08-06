@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 @class APSCloudConfig;
 
-static NSString *const APSConfigXALAppID = @"APSConfigXALAppID";
+static NSString *const APSConfigXALAppID = @"io.MachBird.sdk.x.AppKey";
 
 @interface APSCloudEnv : NSObject
 

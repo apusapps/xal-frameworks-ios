@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <APSMiddleware/APSFactory.h>
-#import "APSSdkEntry.h"
+#import <APSMiddleware/APSSdkEntry.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol APSConfigSDKProtocol <NSObject>

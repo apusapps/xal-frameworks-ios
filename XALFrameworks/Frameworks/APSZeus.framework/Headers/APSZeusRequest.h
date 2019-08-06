@@ -140,7 +140,6 @@ typedef void(^APSFailureCompletionBlock)(__kindof NSError *error, APSResponseCod
  */
 - (nullable NSDictionary<NSString *, NSString *> *)requestHeaderFieldValueDictionary;
 
-
 /**
  * Username and password used for HTTP authorization.
  * Should be formed as @[@"Username", @"Password"].

@@ -1,6 +1,6 @@
 {
   "name": "XALFrameworks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of XALFrameworks.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks",
@@ -9,14 +9,201 @@
     "file": "LICENSE"
   },
   "authors": {
-    "xueminlee": "lixuemin@apusapps.com"
+    "cuixuerui": "cuixuerui@apusapps.com"
   },
   "source": {
     "git": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XALFrameworks/Frameworks/**/*"
+  "subspecs": [
+    {
+      "name": "APSLibraryAdapter",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSLibraryAdapter.framework"
+      },
+      "dependencies": {
+        "XALFrameworks/APSActivate": [
+
+        ],
+        "XALFrameworks/APSCloud": [
+
+        ],
+        "XALFrameworks/APSSupport3rd": [
+
+        ],
+        "XALFrameworks/APSAlex": [
+
+        ]
+      }
+    },
+    {
+      "name": "APSActivate",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSActivate.framework"
+      },
+      "dependencies": {
+        "XALFrameworks/APSUtilities": [
+
+        ],
+        "XALFrameworks/APSZeus": [
+
+        ],
+        "XALFrameworks/APSMiddleware": [
+
+        ],
+        "XALFrameworks/APSSdkService": [
+
+        ],
+        "XALFrameworks/APSAdjust": [
+
+        ],
+        "FlatBuffers-ObjC": [
+          "0.0.2"
+        ]
+      }
+    },
+    {
+      "name": "APSCloud",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSCloud.framework"
+      },
+      "dependencies": {
+        "XALFrameworks/APSZeus": [
+
+        ],
+        "XALFrameworks/APSMiddleware": [
+
+        ],
+        "XALFrameworks/APSSdkService": [
+
+        ],
+        "FMDB": [
+          "2.7.5"
+        ],
+        "FlatBuffers-ObjC": [
+          "0.0.2"
+        ]
+      }
+    },
+    {
+      "name": "APSAlex",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSAlex.framework"
+      },
+      "dependencies": {
+        "XALFrameworks/APSUtilities": [
+
+        ],
+        "XALFrameworks/APSZeus": [
+
+        ],
+        "XALFrameworks/APSCompression": [
+
+        ],
+        "XALFrameworks/APSMiddleware": [
+
+        ],
+        "XALFrameworks/APSSdkService": [
+
+        ],
+        "FlatBuffers-ObjC": [
+          "0.0.2"
+        ],
+        "FMDB": [
+          "2.7.5"
+        ]
+      }
+    },
+    {
+      "name": "APSSupport3rd",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/du.framework"
+      },
+      "dependencies": {
+        "Adjust": [
+          "4.18.0"
+        ],
+        "Branch": [
+          "0.27.1"
+        ],
+        "Flurry-iOS-SDK": [
+          "9.3.1"
+        ]
+      }
+    },
+    {
+      "name": "APSMiddleware",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSMiddleware.framework"
+      }
+    },
+    {
+      "name": "APSSdkService",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSSdkService.framework"
+      }
+    },
+    {
+      "name": "APSZeus",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSZeus.framework"
+      },
+      "dependencies": {
+        "XALFrameworks/APSLogServer": [
+
+        ],
+        "XALFrameworks/APSCompression": [
+
+        ],
+        "AFNetworking": [
+          "3.2.1"
+        ]
+      }
+    },
+    {
+      "name": "APSAdjust",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSAdjust.framework"
+      },
+      "dependencies": {
+        "Adjust": [
+          "4.18.0"
+        ]
+      }
+    },
+    {
+      "name": "APSCompression",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSCompression.framework"
+      }
+    },
+    {
+      "name": "APSLogServer",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSLogServer.framework"
+      },
+      "dependencies": {
+        "GCDWebServer": [
+          "3.5.2"
+        ]
+      }
+    },
+    {
+      "name": "APSUtilities",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSUtilities.framework"
+      },
+      "dependencies": {
+        "Reachability": [
+          "3.2"
+        ],
+        "SAMKeychain": [
+          "1.5.3"
+        ]
+      }
+    }
+  ]
 }
