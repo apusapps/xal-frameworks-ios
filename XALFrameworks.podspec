@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC

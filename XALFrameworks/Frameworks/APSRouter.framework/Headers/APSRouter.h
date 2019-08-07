@@ -18,6 +18,7 @@
 //              \/                 \/         \/                        \/
 //
 //
+//      文档地址: https://nowiki.apuscn.com/display/APUSTEC/APSRouter
 //
 //
 //      URL格式:
@@ -52,6 +53,7 @@
 //                         +------+--------+               +--------+--------+
 //                         |  注 入 变 量    |              | 注 入 Setter方 法 |
 //                         +---------------+               +-----------------+
+//
 //
 //
 //
@@ -187,11 +189,20 @@ typedef id (^APSRouterBlock)(NSDictionary *params);
  */
 -(void)useURL:(NSString*)url withBlock:(APSRouterBlock)block;
 
+
+/**
+ 增加UniversalUrl的host匹配
+
+ @param host UniversalUrl的HOST
+ */
++(void)addUniversalHosts:(NSString*)host;
+
+    
 /**
  当前路由的scheme
  */
 @property(nonatomic,copy,readonly)NSString * scheme;
-
+    
 @end
 
 @interface UIViewController (APSRouter)
