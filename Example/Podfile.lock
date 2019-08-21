@@ -29,61 +29,61 @@ PODS:
   - GCDWebServer/Core (3.5.3)
   - Reachability (3.2)
   - SAMKeychain (1.5.3)
-  - XALFrameworks (0.1.7):
-    - XALFrameworks/APSActivate (= 0.1.7)
-    - XALFrameworks/APSAdjust (= 0.1.7)
-    - XALFrameworks/APSAlex (= 0.1.7)
-    - XALFrameworks/APSCloud (= 0.1.7)
-    - XALFrameworks/APSCompression (= 0.1.7)
-    - XALFrameworks/APSLibraryAdapter (= 0.1.7)
-    - XALFrameworks/APSLogServer (= 0.1.7)
-    - XALFrameworks/APSMiddleware (= 0.1.7)
-    - XALFrameworks/APSRouter (= 0.1.7)
-    - XALFrameworks/APSSdkService (= 0.1.7)
-    - XALFrameworks/APSSupport3rd (= 0.1.7)
-    - XALFrameworks/APSUtilities (= 0.1.7)
-    - XALFrameworks/APSZeus (= 0.1.7)
-  - XALFrameworks/APSActivate (0.1.7):
+  - XALFrameworks (0.1.8):
+    - XALFrameworks/APSActivate (= 0.1.8)
+    - XALFrameworks/APSAdjust (= 0.1.8)
+    - XALFrameworks/APSAlex (= 0.1.8)
+    - XALFrameworks/APSCloud (= 0.1.8)
+    - XALFrameworks/APSCompression (= 0.1.8)
+    - XALFrameworks/APSLibraryAdapter (= 0.1.8)
+    - XALFrameworks/APSLogServer (= 0.1.8)
+    - XALFrameworks/APSMiddleware (= 0.1.8)
+    - XALFrameworks/APSRouter (= 0.1.8)
+    - XALFrameworks/APSSdkService (= 0.1.8)
+    - XALFrameworks/APSSupport3rd (= 0.1.8)
+    - XALFrameworks/APSUtilities (= 0.1.8)
+    - XALFrameworks/APSZeus (= 0.1.8)
+  - XALFrameworks/APSActivate (0.1.8):
     - FlatBuffers-ObjC (= 0.0.2)
     - XALFrameworks/APSAdjust
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSAdjust (0.1.7):
+  - XALFrameworks/APSAdjust (0.1.8):
     - Adjust (= 4.18.0)
-  - XALFrameworks/APSAlex (0.1.7):
+  - XALFrameworks/APSAlex (0.1.8):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCloud (0.1.7):
+  - XALFrameworks/APSCloud (0.1.8):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCompression (0.1.7)
-  - XALFrameworks/APSLibraryAdapter (0.1.7):
+  - XALFrameworks/APSCompression (0.1.8)
+  - XALFrameworks/APSLibraryAdapter (0.1.8):
     - XALFrameworks/APSActivate
     - XALFrameworks/APSAlex
     - XALFrameworks/APSCloud
     - XALFrameworks/APSSupport3rd
-  - XALFrameworks/APSLogServer (0.1.7):
+  - XALFrameworks/APSLogServer (0.1.8):
     - GCDWebServer (= 3.5.3)
-  - XALFrameworks/APSMiddleware (0.1.7)
-  - XALFrameworks/APSRouter (0.1.7)
-  - XALFrameworks/APSSdkService (0.1.7)
-  - XALFrameworks/APSSupport3rd (0.1.7):
+  - XALFrameworks/APSMiddleware (0.1.8)
+  - XALFrameworks/APSRouter (0.1.8)
+  - XALFrameworks/APSSdkService (0.1.8)
+  - XALFrameworks/APSSupport3rd (0.1.8):
     - Adjust (= 4.18.0)
     - Flurry-iOS-SDK (= 9.3.1)
-  - XALFrameworks/APSUtilities (0.1.7):
+  - XALFrameworks/APSUtilities (0.1.8):
     - Reachability (= 3.2)
     - SAMKeychain (= 1.5.3)
-  - XALFrameworks/APSZeus (0.1.7):
+  - XALFrameworks/APSZeus (0.1.8):
     - AFNetworking (= 3.2.1)
     - XALFrameworks/APSCompression
     - XALFrameworks/APSLogServer
@@ -115,7 +115,7 @@ SPEC CHECKSUMS:
   GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  XALFrameworks: 5eb31f93c7abd3ce320bf3e1e833cfe4a71f5b3c
+  XALFrameworks: 74a9f8f1bbc1c76b606ff6490917531fe3a9b6cc
 
 PODFILE CHECKSUM: 6eae83c8a758308037e07417327a200a67077ec4
 
