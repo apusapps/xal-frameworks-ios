@@ -24,66 +24,66 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - GCDWebServer (3.5.2):
-    - GCDWebServer/Core (= 3.5.2)
-  - GCDWebServer/Core (3.5.2)
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
   - Reachability (3.2)
   - SAMKeychain (1.5.3)
-  - XALFrameworks (0.1.6):
-    - XALFrameworks/APSActivate (= 0.1.6)
-    - XALFrameworks/APSAdjust (= 0.1.6)
-    - XALFrameworks/APSAlex (= 0.1.6)
-    - XALFrameworks/APSCloud (= 0.1.6)
-    - XALFrameworks/APSCompression (= 0.1.6)
-    - XALFrameworks/APSLibraryAdapter (= 0.1.6)
-    - XALFrameworks/APSLogServer (= 0.1.6)
-    - XALFrameworks/APSMiddleware (= 0.1.6)
-    - XALFrameworks/APSRouter (= 0.1.6)
-    - XALFrameworks/APSSdkService (= 0.1.6)
-    - XALFrameworks/APSSupport3rd (= 0.1.6)
-    - XALFrameworks/APSUtilities (= 0.1.6)
-    - XALFrameworks/APSZeus (= 0.1.6)
-  - XALFrameworks/APSActivate (0.1.6):
+  - XALFrameworks (0.1.7):
+    - XALFrameworks/APSActivate (= 0.1.7)
+    - XALFrameworks/APSAdjust (= 0.1.7)
+    - XALFrameworks/APSAlex (= 0.1.7)
+    - XALFrameworks/APSCloud (= 0.1.7)
+    - XALFrameworks/APSCompression (= 0.1.7)
+    - XALFrameworks/APSLibraryAdapter (= 0.1.7)
+    - XALFrameworks/APSLogServer (= 0.1.7)
+    - XALFrameworks/APSMiddleware (= 0.1.7)
+    - XALFrameworks/APSRouter (= 0.1.7)
+    - XALFrameworks/APSSdkService (= 0.1.7)
+    - XALFrameworks/APSSupport3rd (= 0.1.7)
+    - XALFrameworks/APSUtilities (= 0.1.7)
+    - XALFrameworks/APSZeus (= 0.1.7)
+  - XALFrameworks/APSActivate (0.1.7):
     - FlatBuffers-ObjC (= 0.0.2)
     - XALFrameworks/APSAdjust
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSAdjust (0.1.6):
+  - XALFrameworks/APSAdjust (0.1.7):
     - Adjust (= 4.18.0)
-  - XALFrameworks/APSAlex (0.1.6):
+  - XALFrameworks/APSAlex (0.1.7):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCloud (0.1.6):
+  - XALFrameworks/APSCloud (0.1.7):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCompression (0.1.6)
-  - XALFrameworks/APSLibraryAdapter (0.1.6):
+  - XALFrameworks/APSCompression (0.1.7)
+  - XALFrameworks/APSLibraryAdapter (0.1.7):
     - XALFrameworks/APSActivate
     - XALFrameworks/APSAlex
     - XALFrameworks/APSCloud
     - XALFrameworks/APSSupport3rd
-  - XALFrameworks/APSLogServer (0.1.6):
-    - GCDWebServer (= 3.5.2)
-  - XALFrameworks/APSMiddleware (0.1.6)
-  - XALFrameworks/APSRouter (0.1.6)
-  - XALFrameworks/APSSdkService (0.1.6)
-  - XALFrameworks/APSSupport3rd (0.1.6):
+  - XALFrameworks/APSLogServer (0.1.7):
+    - GCDWebServer (= 3.5.3)
+  - XALFrameworks/APSMiddleware (0.1.7)
+  - XALFrameworks/APSRouter (0.1.7)
+  - XALFrameworks/APSSdkService (0.1.7)
+  - XALFrameworks/APSSupport3rd (0.1.7):
     - Adjust (= 4.18.0)
     - Flurry-iOS-SDK (= 9.3.1)
-  - XALFrameworks/APSUtilities (0.1.6):
+  - XALFrameworks/APSUtilities (0.1.7):
     - Reachability (= 3.2)
     - SAMKeychain (= 1.5.3)
-  - XALFrameworks/APSZeus (0.1.6):
+  - XALFrameworks/APSZeus (0.1.7):
     - AFNetworking (= 3.2.1)
     - XALFrameworks/APSCompression
     - XALFrameworks/APSLogServer
@@ -112,10 +112,10 @@ SPEC CHECKSUMS:
   FlatBuffers-ObjC: 0d13dbb9ff0e19567ea107b1ee3687340ce1c8b2
   Flurry-iOS-SDK: 5d782d740c5e95389c327d38245b3db4bb471fd7
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  GCDWebServer: ead88cd14596dd4eae4f5830b8877c87c8728990
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  XALFrameworks: 8847dcb6295bfc3bbffebdade29bf01377b636cb
+  XALFrameworks: 5eb31f93c7abd3ce320bf3e1e833cfe4a71f5b3c
 
 PODFILE CHECKSUM: 6eae83c8a758308037e07417327a200a67077ec4
 

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC
@@ -98,7 +98,7 @@ TODO: Add long description of the pod here.
   s.subspec "APSLogServer" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSLogServer.framework"
       
-      ss.dependency 'GCDWebServer', '3.5.2'
+      ss.dependency 'GCDWebServer', '3.5.3'
   end
   
   s.subspec "APSUtilities" do |ss|
