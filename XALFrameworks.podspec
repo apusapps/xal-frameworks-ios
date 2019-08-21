@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.9'
+  s.version          = '0.1.10'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC
@@ -62,8 +62,7 @@ TODO: Add long description of the pod here.
   
   s.subspec "APSSupport3rd" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSSupport3rd.framework"
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"
-      
+      ss.dependency 'XALFrameworks/du'
       ss.dependency 'Adjust', '4.18.0'
       ss.dependency 'Flurry-iOS-SDK', '9.3.1'
       

@@ -180,9 +180,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSMiddleware.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSRouter.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSdkService.framework"
-  install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework"
+  install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSupport3rd.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSUtilities.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSZeus.framework"
+  install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -205,9 +206,10 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSMiddleware.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSRouter.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSdkService.framework"
-  install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework"
+  install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSupport3rd.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSUtilities.framework"
   install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/APSZeus.framework"
+  install_framework "${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

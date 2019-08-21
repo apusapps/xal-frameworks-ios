@@ -105,71 +105,72 @@ PODS:
   - Protobuf (3.9.0)
   - Reachability (3.2)
   - SAMKeychain (1.5.3)
-  - XALFrameworks (0.1.9):
-    - XALFrameworks/APSActivate (= 0.1.9)
-    - XALFrameworks/APSAdjust (= 0.1.9)
-    - XALFrameworks/APSAlex (= 0.1.9)
-    - XALFrameworks/APSCloud (= 0.1.9)
-    - XALFrameworks/APSCompression (= 0.1.9)
-    - XALFrameworks/APSFcmPush (= 0.1.9)
-    - XALFrameworks/APSLibraryAdapter (= 0.1.9)
-    - XALFrameworks/APSLogServer (= 0.1.9)
-    - XALFrameworks/APSMiddleware (= 0.1.9)
-    - XALFrameworks/APSRouter (= 0.1.9)
-    - XALFrameworks/APSSdkService (= 0.1.9)
-    - XALFrameworks/APSSupport3rd (= 0.1.9)
-    - XALFrameworks/APSUtilities (= 0.1.9)
-    - XALFrameworks/APSZeus (= 0.1.9)
-    - XALFrameworks/du (= 0.1.9)
-  - XALFrameworks/APSActivate (0.1.9):
+  - XALFrameworks (0.1.10):
+    - XALFrameworks/APSActivate (= 0.1.10)
+    - XALFrameworks/APSAdjust (= 0.1.10)
+    - XALFrameworks/APSAlex (= 0.1.10)
+    - XALFrameworks/APSCloud (= 0.1.10)
+    - XALFrameworks/APSCompression (= 0.1.10)
+    - XALFrameworks/APSFcmPush (= 0.1.10)
+    - XALFrameworks/APSLibraryAdapter (= 0.1.10)
+    - XALFrameworks/APSLogServer (= 0.1.10)
+    - XALFrameworks/APSMiddleware (= 0.1.10)
+    - XALFrameworks/APSRouter (= 0.1.10)
+    - XALFrameworks/APSSdkService (= 0.1.10)
+    - XALFrameworks/APSSupport3rd (= 0.1.10)
+    - XALFrameworks/APSUtilities (= 0.1.10)
+    - XALFrameworks/APSZeus (= 0.1.10)
+    - XALFrameworks/du (= 0.1.10)
+  - XALFrameworks/APSActivate (0.1.10):
     - FlatBuffers-ObjC (= 0.0.2)
     - XALFrameworks/APSAdjust
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSAdjust (0.1.9):
+  - XALFrameworks/APSAdjust (0.1.10):
     - Adjust (= 4.18.0)
-  - XALFrameworks/APSAlex (0.1.9):
+  - XALFrameworks/APSAlex (0.1.10):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCloud (0.1.9):
+  - XALFrameworks/APSCloud (0.1.10):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCompression (0.1.9)
-  - XALFrameworks/APSFcmPush (0.1.9):
+  - XALFrameworks/APSCompression (0.1.10)
+  - XALFrameworks/APSFcmPush (0.1.10):
     - Firebase/Core
     - Firebase/Messaging
     - XALFrameworks/APSAlex
-  - XALFrameworks/APSLibraryAdapter (0.1.9):
+  - XALFrameworks/APSLibraryAdapter (0.1.10):
     - XALFrameworks/APSActivate
     - XALFrameworks/APSAlex
     - XALFrameworks/APSCloud
     - XALFrameworks/APSSupport3rd
-  - XALFrameworks/APSLogServer (0.1.9):
+  - XALFrameworks/APSLogServer (0.1.10):
     - GCDWebServer (= 3.5.3)
-  - XALFrameworks/APSMiddleware (0.1.9)
-  - XALFrameworks/APSRouter (0.1.9)
-  - XALFrameworks/APSSdkService (0.1.9)
-  - XALFrameworks/APSSupport3rd (0.1.9):
+  - XALFrameworks/APSMiddleware (0.1.10)
+  - XALFrameworks/APSRouter (0.1.10)
+  - XALFrameworks/APSSdkService (0.1.10)
+  - XALFrameworks/APSSupport3rd (0.1.10):
     - Adjust (= 4.18.0)
     - Flurry-iOS-SDK (= 9.3.1)
-  - XALFrameworks/APSUtilities (0.1.9):
+    - XALFrameworks/du
+  - XALFrameworks/APSUtilities (0.1.10):
     - Reachability (= 3.2)
     - SAMKeychain (= 1.5.3)
-  - XALFrameworks/APSZeus (0.1.9):
+  - XALFrameworks/APSZeus (0.1.10):
     - AFNetworking (= 3.2.1)
     - XALFrameworks/APSCompression
     - XALFrameworks/APSLogServer
-  - XALFrameworks/du (0.1.9)
+  - XALFrameworks/du (0.1.10)
 
 DEPENDENCIES:
   - XALFrameworks (from `../`)
@@ -226,7 +227,7 @@ SPEC CHECKSUMS:
   Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  XALFrameworks: 22f2fc1055e86bde20152af07640df0e9256f0e1
+  XALFrameworks: 0e86cbe4d4676ec7560df694982796fb55516632
 
 PODFILE CHECKSUM: 6eae83c8a758308037e07417327a200a67077ec4
 

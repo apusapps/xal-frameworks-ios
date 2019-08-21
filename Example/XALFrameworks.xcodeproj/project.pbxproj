@@ -325,9 +325,10 @@
 				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSMiddleware.framework",
 				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSRouter.framework",
 				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSdkService.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework",
+				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSupport3rd.framework",
 				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSUtilities.framework",
 				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSZeus.framework",
+				"${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -351,9 +352,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APSMiddleware.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APSRouter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APSSdkService.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/du.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APSSupport3rd.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APSUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APSZeus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/du.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 {
   "name": "XALFrameworks",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "summary": "A short description of XALFrameworks.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git",
-    "tag": "0.1.9"
+    "tag": "0.1.10"
   },
   "platforms": {
     "ios": "8.0"
@@ -120,9 +120,12 @@
     {
       "name": "APSSupport3rd",
       "ios": {
-        "vendored_frameworks": "XALFrameworks/Frameworks/du.framework"
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSSupport3rd.framework"
       },
       "dependencies": {
+        "XALFrameworks/du": [
+
+        ],
         "Adjust": [
           "4.18.0"
         ],
