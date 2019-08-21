@@ -379,7 +379,6 @@
 		14AD817AFB3E40D8DCDB105FB9E9FB47 /* Pods-XALFrameworks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XALFrameworks_Example-umbrella.h"; sourceTree = "<group>"; };
 		1518A6DEFE68FC445C6AF4E1E4DF8496 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
 		1603C35D69BA5EA9C640D0FF9F37FC55 /* Flurry-iOS-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Flurry-iOS-SDK.modulemap"; sourceTree = "<group>"; };
-		167EF3A8EEF67486827C42187EBA2EEC /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Flurry_iOS_SDK.framework; path = "Flurry-iOS-SDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AE1562C9B3882834B5700082E9FBA9 /* APSLogServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSLogServer.framework; path = XALFrameworks/Frameworks/APSLogServer.framework; sourceTree = "<group>"; };
 		173AE14E0CD3CED0A7402975ACD85D76 /* ADJTimerOnce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerOnce.h; path = Adjust/ADJTimerOnce.h; sourceTree = "<group>"; };
 		174A98DFB25462D6DED29F02F806101F /* ADJAttribution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttribution.h; path = Adjust/ADJAttribution.h; sourceTree = "<group>"; };
@@ -389,18 +388,18 @@
 		1AC004304967BE93C743335DD0A83B66 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
 		1B4A3FDE0F5F484A2DB1C90F5C26ED8F /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
 		1B5D16EEEBEEE65B9AF98C60AD1F6E20 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
-		1E1ED075453148FD20BCC48BCCAA8408 /* Pods_XALFrameworks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XALFrameworks_Example.framework; path = "Pods-XALFrameworks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED78E2C0E1F2803DE753DCE8E12CFE9 /* ADJSystemProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSystemProfile.h; path = Adjust/ADJSystemProfile.h; sourceTree = "<group>"; };
 		1ED83ACA82D52C236F508B3CDCD4D8B9 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		1F5819E4DF9EB7032CD4E7628C95A4EC /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
 		1FF97AF5BEAD7B90DE9859EE62C89C22 /* ADJSessionSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionSuccess.m; path = Adjust/ADJSessionSuccess.m; sourceTree = "<group>"; };
 		2048EDACA12934FAA3D97A6A322F9B13 /* ADJDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJDeviceInfo.m; path = Adjust/ADJDeviceInfo.m; sourceTree = "<group>"; };
+		20FD27740D8AA71C681E96B90F102778 /* Pods_XALFrameworks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XALFrameworks_Tests.framework; path = "Pods-XALFrameworks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2614DE2021036AA9FD31783AA4F79FF0 /* ADJDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJDeviceInfo.h; path = Adjust/ADJDeviceInfo.h; sourceTree = "<group>"; };
 		27CCB98C6A06D2D5073F105FA6C387BC /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		27E33C87B281E4A0A2130925C2606779 /* FlatBuffers_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlatBuffers_ObjC.framework; path = "FlatBuffers-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BEDF4C394A40134E9504896711E333 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		295E8181419BF9F2A036F512327C4208 /* ADJUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUserDefaults.h; path = Adjust/ADJUserDefaults.h; sourceTree = "<group>"; };
 		2A9FD0411163F56685152A725E95341A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2B77ACCC6498AFFF2D8B91D77A943EA3 /* Adjust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Adjust.framework; path = Adjust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9D5F7AAFAE7317B68AC41364E6F030 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		2C6B26CEBE05B9DA87E167259253DFC5 /* Adjust.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Adjust.modulemap; sourceTree = "<group>"; };
 		2D1DDAD36CF331E895A2F8FE9163FB73 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -425,7 +424,9 @@
 		3E241370BFA5DAABC35B214D1718BFDC /* Adjust.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Adjust.h; path = Adjust/Adjust.h; sourceTree = "<group>"; };
 		3E78FA5A6A6B6290E633B539DA45CFBA /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
 		3FA9D5B001A7572E4A547A0F5F22F487 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40836EFE2E10D608420BDF31F41610AA /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
+		40F694279899D5DE08A1D633DAFE496B /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Flurry_iOS_SDK.framework; path = "Flurry-iOS-SDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		411D58E603BC57E8D0F7674A035D4030 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
 		4370B7552C75E08F156F7F124BDC4259 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		43C774E0BE0ED95D8875687E1B8602B9 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
@@ -444,7 +445,6 @@
 		5249B7BCDFDF1BD9A9061401E932FAAA /* NSData+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ADJAdditions.m"; path = "Adjust/ADJAdditions/NSData+ADJAdditions.m"; sourceTree = "<group>"; };
 		52F632A00352AD0EF99298B85F106270 /* ADJSdkClickHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSdkClickHandler.m; path = Adjust/ADJSdkClickHandler.m; sourceTree = "<group>"; };
 		53C5D0EBB0362C268F73A98C533B7ED5 /* FlatBuffers-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlatBuffers-ObjC-dummy.m"; sourceTree = "<group>"; };
-		55C020D87480D769F7E5ACB336911C86 /* Pods_XALFrameworks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XALFrameworks_Tests.framework; path = "Pods-XALFrameworks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58051AB571B7C167CFFF754502C64892 /* Flurry-iOS-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Flurry-iOS-SDK-Info.plist"; sourceTree = "<group>"; };
 		583C95584C03DC46B6E2F795CD201B08 /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
 		58AA821354AD6C90A2B5F9FA91140BF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -460,15 +460,13 @@
 		5ECF1A0C056B22581D4DBC1AA5170B20 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		5F1B95C457CE68A486A932E7933FD25C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		5FE1760FB185A478E5B1CF56F889B5A6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FD19C0FC771BA4BF0F9A7BBA60C92D /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
-		6290B7D31E6A5B174697671055FC253D /* FlatBuffers_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlatBuffers_ObjC.framework; path = "FlatBuffers-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B25608BA460C8A0FCC44BA19EFBB29 /* APSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSRouter.framework; path = XALFrameworks/Frameworks/APSRouter.framework; sourceTree = "<group>"; };
 		64200845611053C31D63C24D91344EDB /* ADJActivityPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityPackage.h; path = Adjust/ADJActivityPackage.h; sourceTree = "<group>"; };
 		649D43028BA67C789EF099BF8BFF792F /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
-		6753500F3A3341CADBA9DD81A4E535AC /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C0F49D1C083F55C40167D0FEE37CE2 /* ADJActivityKind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityKind.m; path = Adjust/ADJActivityKind.m; sourceTree = "<group>"; };
 		69863E3717FC3B6CA31AAE9C35D4FC18 /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
-		69B6F07A4DD8309D5BB7A2A237A4B83B /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A926E804FA1FBD067C5F08603A735DE /* FlatBuffers-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FlatBuffers-ObjC.xcconfig"; sourceTree = "<group>"; };
 		6BD4227BDBC9865BBD35341A9EE87D7D /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
 		6C4A90E822D1B2A627C3CE39864B3703 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
@@ -488,6 +486,7 @@
 		7B8F7844F167CE69D51BEFD5EC8EF67F /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		7DA11383C10841F9A5D53BF865A15D8F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		7FC2F86209ABCBD5D28C8F52245F116D /* ADJResponseData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJResponseData.h; path = Adjust/ADJResponseData.h; sourceTree = "<group>"; };
+		7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Adjust.framework; path = Adjust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		818A71234239FB89ED4439B502787786 /* ADJEventSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventSuccess.h; path = Adjust/ADJEventSuccess.h; sourceTree = "<group>"; };
 		85FC26853EC7D800F36868CEB7641D81 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		86E326A163FF4FFE01FA18D747759EBB /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
@@ -510,7 +509,6 @@
 		9697C4F6A87DF7B157E145B815A5B0F6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		9796EE737BD226E0C8095491F7EE3453 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
 		983A03A737F6B47F805A8A933A7B9DB1 /* Pods-XALFrameworks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XALFrameworks_Example-dummy.m"; sourceTree = "<group>"; };
-		9B3E63412F434AFD1F60F1F6D4E50B7D /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7F76C0C68753A638E2ACF403046B9C /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		9BCBD0580B9F280B21793899DAC56992 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
 		9BE1F6B72A3B560F879E5D709CC8518A /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
@@ -523,9 +521,10 @@
 		9EFE407612477C5049B8F3F898FA2005 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		9FEC37A0DF37FA7CD695F57CE10F297A /* ADJEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEvent.m; path = Adjust/ADJEvent.m; sourceTree = "<group>"; };
 		A06024C3CBE33E1F4D2A77CEE32302FC /* ADJSessionFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionFailure.m; path = Adjust/ADJSessionFailure.m; sourceTree = "<group>"; };
-		A0C50DD3CCC36380523577EB4A8A2E81 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1776B52F2E91BFAFA25069FFA8C024F /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4604CDC347249E21ED5B355BB1C3F98 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53F5880A51E5EEDC3B0880C92AC0D9B /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
 		A56A44991EEA809DC77389F5898EFE55 /* Pods-XALFrameworks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XALFrameworks_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A67293631E479AEE91FF8A70C5B79152 /* ADJTimerCycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerCycle.h; path = Adjust/ADJTimerCycle.h; sourceTree = "<group>"; };
@@ -540,7 +539,7 @@
 		B2C2B157E912FB73AFE107D66C851A4B /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		B35EC8AA420B4EF078D5CD66B8F417DC /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
 		B46BFCEF822C21E1933953FAA92A6E80 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		B4F3A22D0E7E481C349BFAC7335E7C1D /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E572ADF2B8A33BAF13C91EF234FE69 /* ADJRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJRequestHandler.h; path = Adjust/ADJRequestHandler.h; sourceTree = "<group>"; };
 		B889A627B2608A10CACA778DF7855289 /* ADJReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJReachability.h; path = Adjust/ADJReachability.h; sourceTree = "<group>"; };
 		BA78B3F790FE82E96261B981A74AB3E9 /* ADJTimerOnce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJTimerOnce.m; path = Adjust/ADJTimerOnce.m; sourceTree = "<group>"; };
@@ -601,6 +600,7 @@
 		EC33B2878B55E2EDC94755FCD86094AE /* APSCompression.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSCompression.framework; path = XALFrameworks/Frameworks/APSCompression.framework; sourceTree = "<group>"; };
 		F05CF6D8A89EF98AA572872EA326E2EC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		F55D415EB11C0640A98682759D75B440 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		F6A8AD298E52DADEAE219D89507F48E0 /* Pods_XALFrameworks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XALFrameworks_Example.framework; path = "Pods-XALFrameworks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E8085A9DDD9429B40E5AC6D4790D72 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
 		F7587DD24D907F82078FC678757F1687 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		F777F01ABC1925FFBA384E9B1BE2C7B1 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
@@ -1267,16 +1267,16 @@
 		CC83F15C53553048F3051032FE12C35B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B77ACCC6498AFFF2D8B91D77A943EA3 /* Adjust.framework */,
-				A0C50DD3CCC36380523577EB4A8A2E81 /* AFNetworking.framework */,
-				6290B7D31E6A5B174697671055FC253D /* FlatBuffers_ObjC.framework */,
-				167EF3A8EEF67486827C42187EBA2EEC /* Flurry_iOS_SDK.framework */,
-				B4F3A22D0E7E481C349BFAC7335E7C1D /* FMDB.framework */,
-				9B3E63412F434AFD1F60F1F6D4E50B7D /* GCDWebServer.framework */,
-				1E1ED075453148FD20BCC48BCCAA8408 /* Pods_XALFrameworks_Example.framework */,
-				55C020D87480D769F7E5ACB336911C86 /* Pods_XALFrameworks_Tests.framework */,
-				6753500F3A3341CADBA9DD81A4E535AC /* Reachability.framework */,
-				69B6F07A4DD8309D5BB7A2A237A4B83B /* SAMKeychain.framework */,
+				7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust.framework */,
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				27E33C87B281E4A0A2130925C2606779 /* FlatBuffers_ObjC.framework */,
+				40F694279899D5DE08A1D633DAFE496B /* Flurry_iOS_SDK.framework */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */,
+				F6A8AD298E52DADEAE219D89507F48E0 /* Pods_XALFrameworks_Example.framework */,
+				20FD27740D8AA71C681E96B90F102778 /* Pods_XALFrameworks_Tests.framework */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */,
+				612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1694,7 +1694,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = A0C50DD3CCC36380523577EB4A8A2E81 /* AFNetworking.framework */;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		23EE62D8F7B4475F49FFAC72AEF81FAF /* Flurry-iOS-SDK */ = {
@@ -1712,7 +1712,7 @@
 			);
 			name = "Flurry-iOS-SDK";
 			productName = "Flurry-iOS-SDK";
-			productReference = 167EF3A8EEF67486827C42187EBA2EEC /* Flurry_iOS_SDK.framework */;
+			productReference = 40F694279899D5DE08A1D633DAFE496B /* Flurry_iOS_SDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		36E223CA571EFAB9C794E159B3A6A29D /* Pods-XALFrameworks_Example */ = {
@@ -1739,7 +1739,7 @@
 			);
 			name = "Pods-XALFrameworks_Example";
 			productName = "Pods-XALFrameworks_Example";
-			productReference = 1E1ED075453148FD20BCC48BCCAA8408 /* Pods_XALFrameworks_Example.framework */;
+			productReference = F6A8AD298E52DADEAE219D89507F48E0 /* Pods_XALFrameworks_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		417943CE187BBB4FDC9E053E26D1E967 /* Pods-XALFrameworks_Tests */ = {
@@ -1758,7 +1758,7 @@
 			);
 			name = "Pods-XALFrameworks_Tests";
 			productName = "Pods-XALFrameworks_Tests";
-			productReference = 55C020D87480D769F7E5ACB336911C86 /* Pods_XALFrameworks_Tests.framework */;
+			productReference = 20FD27740D8AA71C681E96B90F102778 /* Pods_XALFrameworks_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
@@ -1776,7 +1776,7 @@
 			);
 			name = SAMKeychain;
 			productName = SAMKeychain;
-			productReference = 69B6F07A4DD8309D5BB7A2A237A4B83B /* SAMKeychain.framework */;
+			productReference = 612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */ = {
@@ -1794,7 +1794,7 @@
 			);
 			name = Adjust;
 			productName = Adjust;
-			productReference = 2B77ACCC6498AFFF2D8B91D77A943EA3 /* Adjust.framework */;
+			productReference = 7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
@@ -1812,7 +1812,7 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = B4F3A22D0E7E481C349BFAC7335E7C1D /* FMDB.framework */;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
@@ -1830,7 +1830,7 @@
 			);
 			name = GCDWebServer;
 			productName = GCDWebServer;
-			productReference = 9B3E63412F434AFD1F60F1F6D4E50B7D /* GCDWebServer.framework */;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF546711F0EB3404C3FE82DF3E0842AB /* FlatBuffers-ObjC */ = {
@@ -1848,7 +1848,7 @@
 			);
 			name = "FlatBuffers-ObjC";
 			productName = "FlatBuffers-ObjC";
-			productReference = 6290B7D31E6A5B174697671055FC253D /* FlatBuffers_ObjC.framework */;
+			productReference = 27E33C87B281E4A0A2130925C2606779 /* FlatBuffers_ObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
@@ -1866,7 +1866,7 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = 6753500F3A3341CADBA9DD81A4E535AC /* Reachability.framework */;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

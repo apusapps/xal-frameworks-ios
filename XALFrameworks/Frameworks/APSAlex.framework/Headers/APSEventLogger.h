@@ -25,6 +25,7 @@
 @property(nonatomic, copy) NSString *product_url;
 @property(nonatomic, copy) NSString *report_url;
 @property(nonatomic) Reachability *reachability;
+@property(nonatomic, assign) BOOL isAppExtension;
 
 + (instancetype)sharedInstance;
 

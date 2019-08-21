@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)IDFV;
 + (NSString *)model;
 + (NSString *)packageName;
++ (NSString *)packageNameEx;
 
 + (long)versionCode;
 + (NSString *)versionName;
