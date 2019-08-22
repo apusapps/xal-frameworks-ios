@@ -14,7 +14,7 @@
 @import Reachability;
 
 @class APSBridge;
-@interface APSEventLogger : NSObject<APSEventLoggerDelegate, APSSdkEntry>
+@interface APSEventLogger : NSObject<APSEventLoggerService, APSEventLoggerDelegate, APSSdkEntry>
 
 @property(nonatomic, assign) BOOL isApusBrand;
 @property(nonatomic, assign) BOOL isOldUser;
