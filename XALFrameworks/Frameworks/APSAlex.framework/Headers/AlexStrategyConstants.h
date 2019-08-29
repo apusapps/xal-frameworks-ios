@@ -76,4 +76,25 @@ FOUNDATION_EXPORT NSString *const latency;
 FOUNDATION_EXPORT NSString *const requestDuration;
 FOUNDATION_EXPORT NSString *const serializationDuration;
 FOUNDATION_EXPORT NSString *const dataLength;
+
+FOUNDATION_EXPORT NSString *const kXALAppID;
+FOUNDATION_EXPORT NSString *const kFlurryAPIKey;
+
+FOUNDATION_EXPORT NSString *const kRecordAdsURLDefault;
+FOUNDATION_EXPORT NSString *const kRecordProductURLDefault;
+FOUNDATION_EXPORT NSString *const kReportURLDefault;
+
+FOUNDATION_EXPORT NSString *const kSendTableRownID;
+FOUNDATION_EXPORT NSString *const kSendTableTokenID;
+FOUNDATION_EXPORT NSString *const kSendTableRecordList;
+FOUNDATION_EXPORT NSString *const kSendTableEventList;
+FOUNDATION_EXPORT NSString *const kTableID;
+FOUNDATION_EXPORT NSString *const kIDList;
+
+FOUNDATION_EXPORT NSString *const INTEGER_SUFFIX;
+FOUNDATION_EXPORT NSString *const DECIMAL_SUFFIX;
+FOUNDATION_EXPORT NSString *const BOOLEAN_SUFFIX;
+FOUNDATION_EXPORT NSString *const STRING_SUFFIX;
+FOUNDATION_EXPORT NSString *const STRING_ARRAY_SUFFIX;
+
 #endif /* AlexStrategyConstants_h */

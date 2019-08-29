@@ -23,7 +23,6 @@
 #import "APSEventRecordHandler.h"
 #import "APSEventRequest.h"
 #import "APSReportHandler.h"
-#import "APSXALHeader.h"
 #import "RecordCache.h"
 #import "APSEventTable.h"
 #import "APSRecordDatabase.h"

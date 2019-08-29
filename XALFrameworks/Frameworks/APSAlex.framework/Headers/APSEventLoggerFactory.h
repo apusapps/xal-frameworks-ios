@@ -9,6 +9,7 @@
 #import <APSMiddleware/APSFactory.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class APSBridge;
 @class APSEventLogger;
 @interface APSEventLoggerFactory : NSObject<APSFactory> {

@@ -10,7 +10,8 @@
 #import "APSZeusRequest.h"
 NS_ASSUME_NONNULL_BEGIN
 @class APSZeus;
-typedef APSZeus *_Nonnull(^APSZeusSerializerTypeBlock)(APSSerializerType type);
+typedef APSZeus *_Nonnull(^APSZeusRequestSerializerTypeBlock)(APSRequestSerializerType type);
+typedef APSZeus *_Nonnull(^APSZeusResponseSerializerTypeBlock)(APSResponseSerializerType type);
 typedef APSZeus *_Nonnull(^APSZeusRequestMethedBlock)(APSRequestMethod methed);
 typedef APSZeus *_Nonnull(^APSZeusXorKeyBlock)(UInt8 xorKey);
 typedef APSZeus *_Nonnull(^APSZeusProtocolVCBlock)(UInt8 version);
@@ -24,7 +25,8 @@ typedef APSZeus *_Nonnull(^APSZeusNonProtocolBlock)(void);
 typedef APSZeus *_Nonnull(^APSZeusHeadersBlock)(NSDictionary<NSString *, NSString *> * headers);
 
 @interface APSZeus: APSZeusRequest {
-    APSSerializerType                       _serializerType;
+    APSRequestSerializerType                _requestSerializerType;
+    APSResponseSerializerType               _responseSerializerType;
     APSRequestMethod                        _requestMethod;
     UInt8                                   _version;
     UInt8                                   _xorKey;
@@ -44,12 +46,18 @@ typedef APSZeus *_Nonnull(^APSZeusHeadersBlock)(NSDictionary<NSString *, NSStrin
 #pragma mark - 链式调用属性
 
 /**
- 设置 请求模式 JSON or FBS，默认为 FBS
+ 设置 RequestSerializer JSON or FBS，默认为 FBS
  */
-@property (nonatomic, copy, readonly) APSZeusSerializerTypeBlock serializerTypePromise;
+@property (nonatomic, copy, readonly) APSZeusRequestSerializerTypeBlock requestSerializerTypePromise;
 
 /**
- 设置 请求方法 默认为 POST，FBS 为 POST
+ 设置 ResponseSerializer JSON or FBS，默认为 FBS
+ */
+@property (nonatomic, copy, readonly) APSZeusResponseSerializerTypeBlock responseSerializerTypePromise;
+
+
+/**
+ 设置 请求方法 默认为 POST
  */
 @property (nonatomic, copy, readonly) APSZeusRequestMethedBlock requestMethedPromise;
 
@@ -163,7 +171,20 @@ typedef APSZeus *_Nonnull(^APSZeusHeadersBlock)(NSDictionary<NSString *, NSStrin
                 requestArgument:(nullable id)argument
                          methed:(APSRequestMethod)methed;
 
-- (instancetype)initWithUploadUrl:(NSString *)url requestData:(NSData *)data;
+
+/**
+ 下载初始化
+
+ @param url 下载链接
+ @param filePath 文件保存路径
+ @param argument 请求参数
+ @return request
+ */
+- (instancetype)initWithDownloadURL:(NSString *)url
+                     filePath:(nullable NSString *)filePath
+                    requestArgument:(nullable id)argument;
+
+
 
 @end
 

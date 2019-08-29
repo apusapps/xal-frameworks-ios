@@ -19,6 +19,7 @@
 #import "APSUtility.h"
 #import "APSZlibUtil.h"
 #import "NSData+CRC32.h"
+#import "Deflate.h"
 #import "NSString+md5.h"
 #import "NetworkType.h"
 #import "RSA.h"

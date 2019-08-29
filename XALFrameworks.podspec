@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC
@@ -68,6 +68,7 @@ TODO: Add long description of the pod here.
       
   end
   
+  
   s.subspec "APSMiddleware" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSMiddleware.framework"
   end
@@ -79,7 +80,6 @@ TODO: Add long description of the pod here.
   s.subspec "APSZeus" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSZeus.framework"
       ss.dependency 'XALFrameworks/APSLogServer'
-      ss.dependency 'XALFrameworks/APSCompression'
       
       ss.dependency 'AFNetworking', '3.2.1'
   end
@@ -90,10 +90,6 @@ TODO: Add long description of the pod here.
       ss.dependency 'Adjust', '4.18.0'
   end
   
-  s.subspec "APSCompression" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSCompression.framework"
-  end
-
   s.subspec "APSLogServer" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSLogServer.framework"
       
@@ -106,7 +102,7 @@ TODO: Add long description of the pod here.
       ss.dependency 'Reachability', '3.2'
       ss.dependency 'SAMKeychain', '1.5.3'
   end
-
+  
   s.subspec "APSRouter" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSRouter.framework"
   end
@@ -122,4 +118,8 @@ TODO: Add long description of the pod here.
   s.subspec "du" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"
   end
+
+  s.source_files = 'XALFrameworks/Classes/**/*'
+  
+  s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO'}
 end

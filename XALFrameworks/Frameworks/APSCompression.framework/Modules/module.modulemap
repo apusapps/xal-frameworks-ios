@@ -1,6 +1,0 @@
-framework module APSCompression {
-  umbrella header "APSCompression-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,12 +7,115 @@
 //
 
 #import "APSAppDelegate.h"
+@import APSMiddleware;
+@import APSLibraryAdapter;
+@import APSAlex;
+@import APSActivate;
+@import APSCloud;
+@import APSSdkService;
+@import APSFcmPush;
+
+@interface APSRecordConfig_ : APSEventLoggerConfig
+
+    @end
+@implementation APSRecordConfig_
+
+- (NSString *)getRecordAdsURL {
+    return @"http://xal.test.apuscn.com/v5/r/w";
+}
+
+- (NSString *)getRecordProductURL {
+    return @"http://xal.test.apuscn.com/v5/r/w";
+}
+
+- (NSString *)getReportURL {
+    return  @"http://test-privacy-api.apusapps.com/host/v1/rp";
+}
+
+- (BOOL)isRealModel {
+    return YES;
+}
+
+    @end
+
+@interface ActivateConfig : NSObject  <APSActivateConfigDelegate>
+
+    @end
+
+@implementation ActivateConfig
+
+-(NSString *)getActivateServerHost {
+    return @"http://test-r-api.apuscn.com";
+}
+
+-(NSString *)getUserTagServerHost {
+    return @"http://test-xalyk-api.apuscn.com";
+}
+
+-(NSString *)getPublicKey {
+    return @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtpqjGICSeEaHaR8s2rVAxfH9Dplcl6qTOLi2SrEpe+CfwrLG2v1B4qcraAPXe+IKSSxXkfHuRMqrZkfwkXxU93soq6F43dj5CLFPECEogVEoqx+vKdm/y0SV8Xw/QVjiJIVS4cqs2X+N0d0xM4A7UOskHAHMZb3BdIuqv2zl2xQIDAQAB";
+}
+
+- (nonnull NSString *)fackIp {
+    return @"";
+}
+
+- (nonnull Protocol *)getType {
+    return @protocol(APSActivateConfigDelegate);
+}
+
+    @end
+
+@interface APSCloudCustomConfig : NSObject<APSCloudConfigProtocol>
+
+    @end
+
+@implementation APSCloudCustomConfig
+
+
+- (nonnull Protocol *)getType {
+    return @protocol(APSCloudConfigProtocol);
+}
+
+- (nonnull NSString *)configUrl {
+    return @"http://test-xalyk-api.apuscn.com/v6/c/u";
+}
+
+- (nonnull NSString *)fileUpdateUrl {
+    return @"http://test-xalyk-api.apuscn.com/v6/f/u";
+}
+
+    @end
 
 @implementation APSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // 添加配置信息
+    [APSSdk customOption:[[APSCloudCustomConfig alloc] init]];
+    
+    // Override point for customization after application launch.
+    [APSSdk customOption:[[APSRecordConfig_ alloc] init]];
+    [APSSdk customOption:[[ActivateConfig alloc] init]];
+    
+    [APSSdk didFinishLaunching:[[APSAppInfo alloc] init] boot:[[APSBoot alloc] init]];
+    
+    id<APSEventLoggerService> logger = [APSSdk findService:@protocol(APSEventLoggerService)];
+    
+    [logger setStateProvider:^NSDictionary<NSString *,NSString *> *{
+        return @{@"Login" : @"YES", @"Age" : @"25", @"Name": @"Tom", @"Salary": @"234.5678"};
+    }];
+    
+    // cutcut push service
+//    APSFcmPushManager *push = [[APSFcmPushManager alloc] init];
+//    [push startWithIsDebug:YES application:application appID:@"100223" actionButtonTitle:@"GO" actionButtonHandler:^(APSPushMessage * _Nonnull message) {
+//        
+//    } messageHandler:^(APSPushMessage * _Nonnull messgae) {
+//        NSLog(@"%@", messgae);
+//    }];
+    
+
     return YES;
 }
 

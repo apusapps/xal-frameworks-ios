@@ -25,16 +25,21 @@ typedef NS_ENUM(NSInteger, APSRequestMethod) {
  - APSSerializerTypeJSON: 使用JSON进行序列化与反序列化
  - APSSerializerTypeFBS: 使用flatbuffer进行序列化与反序列化
  */
-typedef NS_ENUM(NSUInteger, APSSerializerType) {
-    APSSerializerTypeJSON,
-    APSSerializerTypeFBS,
-    APSSerializerTypeUPLOAD
+
+typedef NS_ENUM(NSUInteger, APSRequestSerializerType) {
+    APSRequestSerializerTypeJSON,
+    APSRequestSerializerTypeFBS,
+};
+
+typedef NS_ENUM(NSUInteger, APSResponseSerializerType) {
+    APSResponseSerializerTypeJSON,
+    APSResponseSerializerTypeFBS,
 };
 
 @protocol AFMultipartFormData;
 
 typedef void (^AFConstructingBlock)(id<AFMultipartFormData> formData);
-typedef void (^AFURLSessionTaskProgressBlock)(NSProgress *);
+typedef void (^AFURLSessionTaskProgressBlock)(NSProgress * progress);
 
 @class APSZeusRequest;
 @class APSResponseCode;
@@ -63,7 +68,17 @@ typedef void(^APSFailureCompletionBlock)(__kindof NSError *error, APSResponseCod
 
 @property (nonatomic, strong, readonly, nullable) NSError *error;
 
-#pragma mark - Request 回调 Block
+/**
+ This value is used to perform resumable download request. Default is nil.
+ @discussion NSURLSessionDownloadTask is used when this value is not nil.The exist file at the path will be removed before the request starts. If request succeed, file will be saved to this path automatically, otherwise the response will be saved to `responseData` and `responseString`. For this to work, server must support `Range` and response with proper `Last-Modified` and/or `Etag`. See `NSURLSessionDownloadTask` for more detail.
+ */
+@property (nonatomic, copy, nullable) NSString *resumableDownloadPath;
+
+/**
+ 下载进度回调
+ */
+@property (nonatomic, copy, nullable) AFURLSessionTaskProgressBlock resumableDownloadProgressBlock;
+
 /**
  成功回调，返回 APSZeusResult
  */
@@ -81,8 +96,12 @@ typedef void(^APSFailureCompletionBlock)(__kindof NSError *error, APSResponseCod
 
 #pragma mark - 请求与回调方法
 
+- (void)downloadtWithSuccess:(nullable APSResultCompletionBlock)success
+                    progress:(nullable AFURLSessionTaskProgressBlock)progress
+                     failure:(nullable APSResultCompletionBlock)failure;
+
 - (void)requestWithSuccess:(nullable APSResultCompletionBlock)success
-                 failure:(nullable APSResultCompletionBlock)failure;
+                   failure:(nullable APSResultCompletionBlock)failure;
 
 - (void)requestCompletion:(nullable APSResultCompletionBlock) completion;
 
@@ -130,10 +149,17 @@ typedef void(^APSFailureCompletionBlock)(__kindof NSError *error, APSResponseCod
 - (APSRequestMethod)requestMethod;
 
 /**
- 序列化与反序列化类型
- @return 默认 APSSerializerTypeFBS
+ 序列化类型
+ @return 默认 APSRequestSerializerTypeFBS
  */
-- (APSSerializerType)serializerType;
+- (APSRequestSerializerType)requestSerializerType;
+
+/**
+ 反序列化类型
+
+ @return APSResponseSerializerTypeFBS
+ */
+- (APSResponseSerializerType)responseSerializerType;
 
 /**
  其他HTTP请求头字段

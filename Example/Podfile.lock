@@ -17,25 +17,25 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Firebase/Core (6.6.0):
+  - Firebase/Core (6.7.0):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 6.1.0)
-  - Firebase/CoreOnly (6.6.0):
-    - FirebaseCore (= 6.2.0)
-  - Firebase/Messaging (6.6.0):
+    - FirebaseAnalytics (= 6.1.1)
+  - Firebase/CoreOnly (6.7.0):
+    - FirebaseCore (= 6.2.1)
+  - Firebase/Messaging (6.7.0):
     - Firebase/CoreOnly
-    - FirebaseMessaging (~> 4.1.2)
-  - FirebaseAnalytics (6.1.0):
+    - FirebaseMessaging (~> 4.1.3)
+  - FirebaseAnalytics (6.1.1):
     - FirebaseCore (~> 6.2)
     - FirebaseInstanceID (~> 4.2)
-    - GoogleAppMeasurement (= 6.1.0)
+    - GoogleAppMeasurement (= 6.1.1)
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
     - GoogleUtilities/Network (~> 6.0)
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
     - nanopb (~> 0.3)
-  - FirebaseAnalyticsInterop (1.3.0)
-  - FirebaseCore (6.2.0):
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseCore (6.2.1):
     - FirebaseCoreDiagnostics (~> 1.0)
     - FirebaseCoreDiagnosticsInterop (~> 1.0)
     - GoogleUtilities/Environment (~> 6.2)
@@ -50,7 +50,7 @@ PODS:
     - FirebaseCore (~> 6.0)
     - GoogleUtilities/Environment (~> 6.0)
     - GoogleUtilities/UserDefaults (~> 6.0)
-  - FirebaseMessaging (4.1.2):
+  - FirebaseMessaging (4.1.3):
     - FirebaseAnalyticsInterop (~> 1.3)
     - FirebaseCore (~> 6.2)
     - FirebaseInstanceID (~> 4.1)
@@ -69,14 +69,14 @@ PODS:
   - GCDWebServer (3.5.3):
     - GCDWebServer/Core (= 3.5.3)
   - GCDWebServer/Core (3.5.3)
-  - GoogleAppMeasurement (6.1.0):
+  - GoogleAppMeasurement (6.1.1):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
     - GoogleUtilities/Network (~> 6.0)
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
     - nanopb (~> 0.3)
-  - GoogleDataTransport (1.1.1)
-  - GoogleDataTransportCCTSupport (1.0.1):
+  - GoogleDataTransport (1.1.3)
+  - GoogleDataTransportCCTSupport (1.0.2):
     - GoogleDataTransport (~> 1.1)
     - nanopb
   - GoogleUtilities/AppDelegateSwizzler (6.2.5):
@@ -105,72 +105,69 @@ PODS:
   - Protobuf (3.9.0)
   - Reachability (3.2)
   - SAMKeychain (1.5.3)
-  - XALFrameworks (0.1.11):
-    - XALFrameworks/APSActivate (= 0.1.11)
-    - XALFrameworks/APSAdjust (= 0.1.11)
-    - XALFrameworks/APSAlex (= 0.1.11)
-    - XALFrameworks/APSCloud (= 0.1.11)
-    - XALFrameworks/APSCompression (= 0.1.11)
-    - XALFrameworks/APSFcmPush (= 0.1.11)
-    - XALFrameworks/APSLibraryAdapter (= 0.1.11)
-    - XALFrameworks/APSLogServer (= 0.1.11)
-    - XALFrameworks/APSMiddleware (= 0.1.11)
-    - XALFrameworks/APSRouter (= 0.1.11)
-    - XALFrameworks/APSSdkService (= 0.1.11)
-    - XALFrameworks/APSSupport3rd (= 0.1.11)
-    - XALFrameworks/APSUtilities (= 0.1.11)
-    - XALFrameworks/APSZeus (= 0.1.11)
-    - XALFrameworks/du (= 0.1.11)
-  - XALFrameworks/APSActivate (0.1.11):
+  - XALFrameworks (0.1.12):
+    - XALFrameworks/APSActivate (= 0.1.12)
+    - XALFrameworks/APSAdjust (= 0.1.12)
+    - XALFrameworks/APSAlex (= 0.1.12)
+    - XALFrameworks/APSCloud (= 0.1.12)
+    - XALFrameworks/APSFcmPush (= 0.1.12)
+    - XALFrameworks/APSLibraryAdapter (= 0.1.12)
+    - XALFrameworks/APSLogServer (= 0.1.12)
+    - XALFrameworks/APSMiddleware (= 0.1.12)
+    - XALFrameworks/APSRouter (= 0.1.12)
+    - XALFrameworks/APSSdkService (= 0.1.12)
+    - XALFrameworks/APSSupport3rd (= 0.1.12)
+    - XALFrameworks/APSUtilities (= 0.1.12)
+    - XALFrameworks/APSZeus (= 0.1.12)
+    - XALFrameworks/du (= 0.1.12)
+  - XALFrameworks/APSActivate (0.1.12):
     - FlatBuffers-ObjC (= 0.0.2)
     - XALFrameworks/APSAdjust
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSAdjust (0.1.11):
+  - XALFrameworks/APSAdjust (0.1.12):
     - Adjust (= 4.18.0)
-  - XALFrameworks/APSAlex (0.1.11):
+  - XALFrameworks/APSAlex (0.1.12):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCloud (0.1.11):
+  - XALFrameworks/APSCloud (0.1.12):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCompression (0.1.11)
-  - XALFrameworks/APSFcmPush (0.1.11):
+  - XALFrameworks/APSFcmPush (0.1.12):
     - Firebase/Core
     - Firebase/Messaging
     - XALFrameworks/APSAlex
-  - XALFrameworks/APSLibraryAdapter (0.1.11):
+  - XALFrameworks/APSLibraryAdapter (0.1.12):
     - XALFrameworks/APSActivate
     - XALFrameworks/APSAlex
     - XALFrameworks/APSCloud
     - XALFrameworks/APSSupport3rd
-  - XALFrameworks/APSLogServer (0.1.11):
+  - XALFrameworks/APSLogServer (0.1.12):
     - GCDWebServer (= 3.5.3)
-  - XALFrameworks/APSMiddleware (0.1.11)
-  - XALFrameworks/APSRouter (0.1.11)
-  - XALFrameworks/APSSdkService (0.1.11)
-  - XALFrameworks/APSSupport3rd (0.1.11):
+  - XALFrameworks/APSMiddleware (0.1.12)
+  - XALFrameworks/APSRouter (0.1.12)
+  - XALFrameworks/APSSdkService (0.1.12)
+  - XALFrameworks/APSSupport3rd (0.1.12):
     - Adjust (= 4.18.0)
     - Flurry-iOS-SDK (= 9.3.1)
     - XALFrameworks/du
-  - XALFrameworks/APSUtilities (0.1.11):
+  - XALFrameworks/APSUtilities (0.1.12):
     - Reachability (= 3.2)
     - SAMKeychain (= 1.5.3)
-  - XALFrameworks/APSZeus (0.1.11):
+  - XALFrameworks/APSZeus (0.1.12):
     - AFNetworking (= 3.2.1)
-    - XALFrameworks/APSCompression
     - XALFrameworks/APSLogServer
-  - XALFrameworks/du (0.1.11)
+  - XALFrameworks/du (0.1.12)
 
 DEPENDENCIES:
   - XALFrameworks (from `../`)
@@ -207,28 +204,28 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Adjust: e6f55671cdb48324053c178324c31d3b6e406c47
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Firebase: a2b5951f30ff38fd3b3bdae9c7d340f940fd3c51
-  FirebaseAnalytics: 48414ae5cbf6976d8a2f7177e0466540e5ab33ce
-  FirebaseAnalyticsInterop: 0f250d71e8741352407a8db351e6de78c5c56d35
-  FirebaseCore: 8c9e08bce0c72a3affd83927d8184cf244918bc8
+  Firebase: 291d7b0a7b393f252358083b5d224884126fa46d
+  FirebaseAnalytics: 843c7f64a8f9c79f0d03281197ebe7bb1d58d477
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseCore: 32b48f41c84a56fbde73b35ed01a830b3b6dc048
   FirebaseCoreDiagnostics: 4c04ae09d0ab027c30179828c6bb47764df1bd13
   FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
   FirebaseInstanceID: 8b42755db950682e7de0d167bc6fb26a57b244af
-  FirebaseMessaging: ddd74d13644ef24cc4e2d95cabd1cf408e99b7b0
+  FirebaseMessaging: 930e4cce01f8f1e634cfdd1881db471fb61be883
   FlatBuffers-ObjC: 0d13dbb9ff0e19567ea107b1ee3687340ce1c8b2
   Flurry-iOS-SDK: 5d782d740c5e95389c327d38245b3db4bb471fd7
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
-  GoogleAppMeasurement: 47285fa897e5a125df56b9ef8750a1d81e4598a8
-  GoogleDataTransport: ffbadce4ab93c88fb9dd8e6366c47bfcb4a32193
-  GoogleDataTransportCCTSupport: 3451e7d8ba19093e533362a6d78d6d9014c6a037
+  GoogleAppMeasurement: 86a82f0e1f20b8eedf8e20326530138fd71409de
+  GoogleDataTransport: 91e682bd60a49d3f8f69f2e909a66efaed5a1e7a
+  GoogleDataTransportCCTSupport: 6b545f7149111180763dc18c6f372c963de4a310
   GoogleUtilities: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  XALFrameworks: db4f17c168a2b9f7080c26798eb82cdfc6afdeb4
+  XALFrameworks: 4ff1e14eed24f8e4f626316062becdad63887304
 
-PODFILE CHECKSUM: 6eae83c8a758308037e07417327a200a67077ec4
+PODFILE CHECKSUM: d68d3fc170cf5a1e98b1d0350042e46ddc12acb8
 
 COCOAPODS: 1.7.1
