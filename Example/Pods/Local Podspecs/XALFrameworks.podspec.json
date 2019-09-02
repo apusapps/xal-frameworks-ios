@@ -1,6 +1,6 @@
 {
   "name": "XALFrameworks",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "summary": "A short description of XALFrameworks.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git",
-    "tag": "0.1.12"
+    "tag": "0.1.13"
   },
   "platforms": {
     "ios": "8.0"
