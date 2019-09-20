@@ -1,6 +1,6 @@
 // automatically generated, do not modify !!!
 
-#import <FlatBuffers_ObjC/FBTable.h>
+#import "FBTable.h"
 
 
 @interface APSEncryptInfo : FBTable 
