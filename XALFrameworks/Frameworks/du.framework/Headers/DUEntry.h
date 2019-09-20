@@ -15,4 +15,5 @@ typedef void(^ getDUDeviceIdBlock)(NSString *cdidStr);
 -(void)run;
 -(NSString*)getDuDeviceId;
 +(instancetype)sharedInstance;
+
 @end
