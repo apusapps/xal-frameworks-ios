@@ -1,18 +1,37 @@
 //
 //  APSEventLogger.h
-//  APSAlex
+//  Pods
 //
-//  Created by zhangfenglin on 2019/5/7.
+//  Created by apus on 2019/6/24.
 //
 
+#ifndef APSEventLogger_h
+#define APSEventLogger_h
 #import <Foundation/Foundation.h>
+#import "APSEventLoggerDelegate.h"
+#import <APSMiddleware/APSSdkEntry.h>
+#import <APSSdkService/APSEventLoggerService.h>
+@import Reachability;
 
-NS_ASSUME_NONNULL_BEGIN
+@class APSBridge;
+@interface APSEventLogger : NSObject<APSEventLoggerService, APSEventLoggerDelegate, APSSdkEntry>
 
-@interface APSEventLogger : NSObject
-+(void)logEvent:(int)eventId;
-+(void)logEvent:(int)eventId withData:(nullable NSData*)data;
-+(void)logEvent:(nullable NSString*)moduleName withEventId:(int)eventId andData:(nullable NSData*)data;
+@property(nonatomic, assign) BOOL isApusBrand;
+@property(nonatomic, assign) BOOL isOldUser;
+@property(nonatomic, assign) BOOL isRecordEnabled;
+@property(nonatomic, assign) BOOL isActiveEnabled;
+@property(nonatomic, assign) BOOL isRemoteConfigEnabled;
+@property(nonatomic, copy) NSString *adv_url;
+@property(nonatomic, copy) NSString *product_url;
+@property(nonatomic, copy) NSString *report_url;
+@property(nonatomic) Reachability *reachability;
+@property(nonatomic, assign) BOOL isAppExtension;
+
++ (instancetype)sharedInstance;
+
+-(id)initWithBridge:(APSBridge *)bridge;
+- (void)sendEvents:(BOOL)forced;
+
 @end
 
-NS_ASSUME_NONNULL_END
+#endif /* APSEventLogger_h */

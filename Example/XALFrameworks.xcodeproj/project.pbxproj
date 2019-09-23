@@ -200,7 +200,7 @@
 				ORGANIZATIONNAME = xueminlee;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = F98VB8V6XQ;
+						DevelopmentTeam = 5BWZ84DR4T;
 					};
 				};
 			};
@@ -446,8 +446,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BITCODE_GENERATION_MODE = bitcode;
-				DEVELOPMENT_TEAM = F98VB8V6XQ;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 5BWZ84DR4T;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XALFrameworks/XALFrameworks-Prefix.pch";
 				INFOPLIST_FILE = "XALFrameworks/XALFrameworks-Info.plist";
@@ -465,8 +465,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BITCODE_GENERATION_MODE = bitcode;
-				DEVELOPMENT_TEAM = F98VB8V6XQ;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 5BWZ84DR4T;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XALFrameworks/XALFrameworks-Prefix.pch";
 				INFOPLIST_FILE = "XALFrameworks/XALFrameworks-Info.plist";
