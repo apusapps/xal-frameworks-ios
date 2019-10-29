@@ -8,15 +8,16 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class FMDatabaseQueue;
 @class FMDatabase;
 @interface APSSendTable : NSObject
 
-- (instancetype)init:(FMDatabase *)db;
+- (instancetype)init:(FMDatabaseQueue *)db;
 - (NSDictionary *)insertWithIdList:(NSArray *)idList;
 - (NSDictionary *)getSendEvents;
 - (NSArray *)getEventListWithId:(NSInteger)ID;
 - (BOOL)deleteWithID:(NSInteger)ID;
-- (NSUInteger)count;
+- (NSUInteger)count:(FMDatabase * _Nullable)fmdb;
 - (NSString *)dump;
 @end
 

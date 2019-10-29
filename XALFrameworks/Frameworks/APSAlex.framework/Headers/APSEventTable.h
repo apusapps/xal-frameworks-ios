@@ -9,11 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class FMDatabase, EventRecord;
+@class FMDatabaseQueue, EventRecord;
+@class FMDatabase;
 
 @interface APSEventTable : NSObject
 
-- (instancetype)init:(FMDatabase *)db;
+- (instancetype)init:(FMDatabaseQueue *)db;
 - (BOOL)insertEvents:(NSArray<EventRecord *> *)events;
 - (NSArray *)selectFromeIDs:(NSString *)idListStr;
 - (BOOL)deleteWithIDs:(NSArray *)idList;
@@ -21,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSDictionary *)getRecordListWithLimit:(NSInteger)limit;
 - (NSUInteger)count;
 - (NSUInteger)productCount;
-- (NSUInteger)starkSDKCount;
+- (NSUInteger)starkSDKCount:(FMDatabase * _Nullable )fmdb;
 - (NSString *)dump;
 @end
 
