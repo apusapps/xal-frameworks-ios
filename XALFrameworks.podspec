@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.23.alpha.1'
+  s.version          = '0.1.23.alpha.2'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC
@@ -118,7 +118,7 @@ TODO: Add long description of the pod here.
   s.subspec "du" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"
   end
-
+  
   #s.source_files = 'XALFrameworks/Classes/**/*'
   
   s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO', 'VALID_ARCHS[sdk=iphonesimulator*]' => ''}
