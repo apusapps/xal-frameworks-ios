@@ -83,6 +83,8 @@ FOUNDATION_EXPORT NSString *const kFlurryAPIKey;
 FOUNDATION_EXPORT NSString *const kRecordAdsURLDefault;
 FOUNDATION_EXPORT NSString *const kRecordProductURLDefault;
 FOUNDATION_EXPORT NSString *const kReportURLDefault;
+FOUNDATION_EXPORT NSString *const kReportAdsQuickVerifyUrl;
+FOUNDATION_EXPORT NSString *const kReportProductQuickVerifyUrl;
 
 FOUNDATION_EXPORT NSString *const kSendTableRownID;
 FOUNDATION_EXPORT NSString *const kSendTableTokenID;
