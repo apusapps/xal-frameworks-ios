@@ -1,0 +1,1 @@
+pod repo add apusapps-spec https://github.com/apusapps/spec.git
