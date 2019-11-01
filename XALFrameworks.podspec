@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks'
+  s.homepage         = 'https://github.com/apusapps/xal-frameworks-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'cuixuerui' => 'cuixuerui@apusapps.com' }
-  s.source           = { :git => 'https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git', :tag => s.version.to_s }
+  s.author           = { 'zhangfenglin' => 'zhangfenglin@apusapps.com' }
+  s.source           = { :git => 'https://github.com/apusapps/xal-frameworks-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
   
   s.subspec "APSLibraryAdapter" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSLibraryAdapter.framework"
