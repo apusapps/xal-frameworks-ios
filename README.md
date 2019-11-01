@@ -22,7 +22,7 @@ pod 'XALFrameworks'
 
 ## Author
 
-xueminlee, lixuemin@apusapps.com
+zhangfenglin, zhangfenglin@apusapps.com
 
 ## License
 
