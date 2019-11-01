@@ -13,7 +13,6 @@
 @import APSActivate;
 @import APSCloud;
 @import APSSdkService;
-@import APSFcmPush;
 
 @interface APSRecordConfig_ : APSEventLoggerConfig
 
@@ -106,15 +105,6 @@
     [logger setStateProvider:^NSDictionary<NSString *,NSString *> *{
         return @{@"Login" : @"YES", @"Age" : @"25", @"Name": @"Tom", @"Salary": @"234.5678"};
     }];
-    
-    // cutcut push service
-//    APSFcmPushManager *push = [[APSFcmPushManager alloc] init];
-//    [push startWithIsDebug:YES application:application appID:@"100223" actionButtonTitle:@"GO" actionButtonHandler:^(APSPushMessage * _Nonnull message) {
-//        
-//    } messageHandler:^(APSPushMessage * _Nonnull messgae) {
-//        NSLog(@"%@", messgae);
-//    }];
-    
 
     return YES;
 }

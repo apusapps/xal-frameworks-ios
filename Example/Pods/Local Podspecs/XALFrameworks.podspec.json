@@ -1,22 +1,22 @@
 {
   "name": "XALFrameworks",
-  "version": "0.1.15",
+  "version": "0.1.23.alpha.3",
   "summary": "A short description of XALFrameworks.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks",
+  "homepage": "https://github.com/apusapps/xal-frameworks-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "cuixuerui": "cuixuerui@apusapps.com"
+    "zhangfenglin": "zhangfenglin@apusapps.com"
   },
   "source": {
-    "git": "https://git.apuscn.com:8443/XAL-iOS-ObjC/xalframeworks.git",
-    "tag": "0.1.15"
+    "git": "https://github.com/apusapps/xal-frameworks-ios.git",
+    "tag": "0.1.23.alpha.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
   "pod_target_xcconfig": {
     "ENABLE_BITCODE": "NO",
@@ -204,23 +204,6 @@
       "name": "APSRouter",
       "ios": {
         "vendored_frameworks": "XALFrameworks/Frameworks/APSRouter.framework"
-      }
-    },
-    {
-      "name": "APSFcmPush",
-      "ios": {
-        "vendored_frameworks": "XALFrameworks/Frameworks/APSFcmPush.framework"
-      },
-      "dependencies": {
-        "XALFrameworks/APSAlex": [
-
-        ],
-        "Firebase/Core": [
-
-        ],
-        "Firebase/Messaging": [
-
-        ]
       }
     },
     {

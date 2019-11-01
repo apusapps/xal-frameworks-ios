@@ -107,13 +107,13 @@ TODO: Add long description of the pod here.
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSRouter.framework"
   end
   
-  s.subspec "APSFcmPush" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSFcmPush.framework"
-      
-      ss.dependency 'XALFrameworks/APSAlex'
-      ss.dependency 'Firebase/Core'
-      ss.dependency 'Firebase/Messaging'
-  end
+#  s.subspec "APSFcmPush" do |ss|
+#      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSFcmPush.framework"
+#      
+#      ss.dependency 'XALFrameworks/APSAlex'
+#      ss.dependency 'Firebase/Core'
+#      ss.dependency 'Firebase/Messaging'
+#  end
   
   s.subspec "du" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"
