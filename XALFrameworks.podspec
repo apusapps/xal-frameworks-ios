@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.23.alpha.3'
+  s.version          = '0.1.23.alpha.4'
   s.summary          = 'A short description of XALFrameworks.'
 
   s.description      = <<-DESC
@@ -107,13 +107,13 @@ TODO: Add long description of the pod here.
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSRouter.framework"
   end
   
-#  s.subspec "APSFcmPush" do |ss|
-#      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSFcmPush.framework"
-#      
-#      ss.dependency 'XALFrameworks/APSAlex'
-#      ss.dependency 'Firebase/Core'
-#      ss.dependency 'Firebase/Messaging'
-#  end
+  s.subspec "APSFcmPush" do |ss|
+      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSFcmPush.framework"
+      
+      ss.dependency 'XALFrameworks/APSAlex'
+      ss.dependency 'Firebase/Core'
+      ss.dependency 'Firebase/Messaging'
+  end
   
   s.subspec "du" do |ss|
       ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"

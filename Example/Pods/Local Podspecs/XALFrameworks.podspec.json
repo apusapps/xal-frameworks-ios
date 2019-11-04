@@ -207,6 +207,23 @@
       }
     },
     {
+      "name": "APSFcmPush",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/Frameworks/APSFcmPush.framework"
+      },
+      "dependencies": {
+        "XALFrameworks/APSAlex": [
+
+        ],
+        "Firebase/Core": [
+
+        ],
+        "Firebase/Messaging": [
+
+        ]
+      }
+    },
+    {
       "name": "du",
       "ios": {
         "vendored_frameworks": "XALFrameworks/Frameworks/du.framework"
