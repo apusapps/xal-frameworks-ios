@@ -1,19 +1,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.23.alpha.4'
-  s.summary          = 'A short description of XALFrameworks.'
+  s.version          = '0.1.23.alpha.5'
+  s.summary          = 'XALFrameworks'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    XALFrameworks.
                        DESC
 
   s.homepage         = 'https://github.com/apusapps/xal-frameworks-ios'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangfenglin' => 'zhangfenglin@apusapps.com' }
   s.source           = { :git => 'https://github.com/apusapps/xal-frameworks-ios.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
   

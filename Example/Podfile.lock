@@ -106,69 +106,70 @@ PODS:
   - Protobuf (3.10.0)
   - Reachability (3.2)
   - SAMKeychain (1.5.3)
-  - XALFrameworks (0.1.23.alpha.3):
-    - XALFrameworks/APSActivate (= 0.1.23.alpha.3)
-    - XALFrameworks/APSAdjust (= 0.1.23.alpha.3)
-    - XALFrameworks/APSAlex (= 0.1.23.alpha.3)
-    - XALFrameworks/APSCloud (= 0.1.23.alpha.3)
-    - XALFrameworks/APSFcmPush (= 0.1.23.alpha.3)
-    - XALFrameworks/APSLibraryAdapter (= 0.1.23.alpha.3)
-    - XALFrameworks/APSLogServer (= 0.1.23.alpha.3)
-    - XALFrameworks/APSMiddleware (= 0.1.23.alpha.3)
-    - XALFrameworks/APSRouter (= 0.1.23.alpha.3)
-    - XALFrameworks/APSSdkService (= 0.1.23.alpha.3)
-    - XALFrameworks/APSSupport3rd (= 0.1.23.alpha.3)
-    - XALFrameworks/APSUtilities (= 0.1.23.alpha.3)
-    - XALFrameworks/APSZeus (= 0.1.23.alpha.3)
-    - XALFrameworks/du (= 0.1.23.alpha.3)
-  - XALFrameworks/APSActivate (0.1.23.alpha.3):
+  - XALFrameworks (0.1.23.alpha.4):
+    - XALFrameworks/APSActivate (= 0.1.23.alpha.4)
+    - XALFrameworks/APSAdjust (= 0.1.23.alpha.4)
+    - XALFrameworks/APSAlex (= 0.1.23.alpha.4)
+    - XALFrameworks/APSCloud (= 0.1.23.alpha.4)
+    - XALFrameworks/APSFcmPush (= 0.1.23.alpha.4)
+    - XALFrameworks/APSLibraryAdapter (= 0.1.23.alpha.4)
+    - XALFrameworks/APSLogServer (= 0.1.23.alpha.4)
+    - XALFrameworks/APSMiddleware (= 0.1.23.alpha.4)
+    - XALFrameworks/APSRouter (= 0.1.23.alpha.4)
+    - XALFrameworks/APSSdkService (= 0.1.23.alpha.4)
+    - XALFrameworks/APSSupport3rd (= 0.1.23.alpha.4)
+    - XALFrameworks/APSUtilities (= 0.1.23.alpha.4)
+    - XALFrameworks/APSZeus (= 0.1.23.alpha.4)
+    - XALFrameworks/du (= 0.1.23.alpha.4)
+  - XALFrameworks/APSActivate (0.1.23.alpha.4):
     - FlatBuffers-ObjC (= 0.0.2)
     - XALFrameworks/APSAdjust
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSAdjust (0.1.23.alpha.3):
+  - XALFrameworks/APSAdjust (0.1.23.alpha.4):
     - Adjust (= 4.18.0)
-  - XALFrameworks/APSAlex (0.1.23.alpha.3):
+  - XALFrameworks/APSAlex (0.1.23.alpha.4):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSCloud (0.1.23.alpha.3):
+  - XALFrameworks/APSCloud (0.1.23.alpha.4):
     - FlatBuffers-ObjC (= 0.0.2)
     - FMDB (= 2.7.5)
     - XALFrameworks/APSMiddleware
     - XALFrameworks/APSSdkService
     - XALFrameworks/APSUtilities
     - XALFrameworks/APSZeus
-  - XALFrameworks/APSFcmPush (0.1.23.alpha.3):
-    - Firebase/Core
-    - Firebase/Messaging
+  - XALFrameworks/APSFcmPush (0.1.23.alpha.4):
+    - AFNetworking (~> 3.2.1)
+    - Firebase/Core (~> 6.11.0)
+    - Firebase/Messaging (~> 6.11.0)
     - XALFrameworks/APSAlex
-  - XALFrameworks/APSLibraryAdapter (0.1.23.alpha.3):
+  - XALFrameworks/APSLibraryAdapter (0.1.23.alpha.4):
     - XALFrameworks/APSActivate
     - XALFrameworks/APSAlex
     - XALFrameworks/APSCloud
     - XALFrameworks/APSSupport3rd
-  - XALFrameworks/APSLogServer (0.1.23.alpha.3):
+  - XALFrameworks/APSLogServer (0.1.23.alpha.4):
     - GCDWebServer (= 3.5.3)
-  - XALFrameworks/APSMiddleware (0.1.23.alpha.3)
-  - XALFrameworks/APSRouter (0.1.23.alpha.3)
-  - XALFrameworks/APSSdkService (0.1.23.alpha.3)
-  - XALFrameworks/APSSupport3rd (0.1.23.alpha.3):
+  - XALFrameworks/APSMiddleware (0.1.23.alpha.4)
+  - XALFrameworks/APSRouter (0.1.23.alpha.4)
+  - XALFrameworks/APSSdkService (0.1.23.alpha.4)
+  - XALFrameworks/APSSupport3rd (0.1.23.alpha.4):
     - Adjust (= 4.18.0)
     - Flurry-iOS-SDK (= 9.3.1)
     - XALFrameworks/du
-  - XALFrameworks/APSUtilities (0.1.23.alpha.3):
+  - XALFrameworks/APSUtilities (0.1.23.alpha.4):
     - Reachability (= 3.2)
     - SAMKeychain (= 1.5.3)
-  - XALFrameworks/APSZeus (0.1.23.alpha.3):
+  - XALFrameworks/APSZeus (0.1.23.alpha.4):
     - AFNetworking (= 3.2.1)
     - XALFrameworks/APSLogServer
-  - XALFrameworks/du (0.1.23.alpha.3)
+  - XALFrameworks/du (0.1.23.alpha.4)
 
 DEPENDENCIES:
   - XALFrameworks (from `../`)
@@ -225,7 +226,7 @@ SPEC CHECKSUMS:
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  XALFrameworks: cfab69f372932ccc8d292539b718e634e74b583a
+  XALFrameworks: a9fdf831f326bec9aa2b4c8a2bb78e55e750489f
 
 PODFILE CHECKSUM: 0bddb226f632637cd0feb73b47172aff74e91010
 
