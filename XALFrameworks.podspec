@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
       ss.dependency 'XALFrameworks/APSMiddleware'
       ss.dependency 'XALFrameworks/APSSdkService'
       
-      ss.dependency 'FlatBuffers-ObjC', '0.0.2'
+      ss.dependency 'FlatBuffers-ObjC'
       ss.dependency 'FMDB', '2.7.5'
       
   end
