@@ -31,8 +31,7 @@ Pod::Spec.new do |s|
       ss.dependency 'XALFrameworks/APSSdkService'
       ss.dependency 'XALFrameworks/APSAdjust'
       
-      ss.dependency 'FlatBuffers-ObjC', '0.0.2'
-      
+      ss.dependency 'FlatBuffers-ObjC'
   end
   
   s.subspec "APSCloud" do |ss|
@@ -43,7 +42,7 @@ Pod::Spec.new do |s|
       ss.dependency 'XALFrameworks/APSUtilities'
       
       ss.dependency 'FMDB', '2.7.5'
-      ss.dependency 'FlatBuffers-ObjC', '0.0.2'
+      ss.dependency 'FlatBuffers-ObjC'
   end
   
   s.subspec "APSAlex" do |ss|
