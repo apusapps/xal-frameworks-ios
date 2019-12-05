@@ -1,0 +1,44 @@
+#!/bin/bash
+function getProjectName {
+    projectName=`ls Example|grep 'xcworkspace'`
+    projectName="${projectName%%.*}"
+    echo ${projectName}
+}
+
+function publishDebug {
+    projectName=$(getProjectName)
+    echo "开始发布 ${projectName} SDK的Debug版本。"
+    successMsg="恭喜您，当前 SDK ${projectName} 的Debug版本已经发布成功！"
+    failureMsg="很抱歉，未能完成 SDK 发布，请检查错误并修正后再进行 SDK 的发布。"
+    sh ./publish-sdk.sh "${projectName}-Debug" "${successMsg}" "${failureMsg}"
+}
+
+function publishRelease {
+    projectName=$(getProjectName)
+    echo "开始发布 ${projectName} SDK的Release版本。"
+    successMsg="恭喜您，当前 SDK ${projectName} 的Release版本已经发布成功！"
+    failureMsg="很抱歉，未能完成 SDK 发布，请检查错误并修正后再进行 SDK 的发布。"
+    sh ./publish-sdk.sh "${projectName}" "${successMsg}" "${failureMsg}"
+}
+
+PS3="Enter your Option:"
+select option in "Debug" "Release" "Debug And Release" "exit"
+do
+    case $option in
+    "Debug")
+        publishDebug
+        break ;;
+    "Release")
+        publishRelease
+        break ;;
+    "Debug And Release")
+        publishDebug
+        publishRelease
+        break ;;
+    "exit")
+        echo "exit current operation."
+        break ;;
+    *)
+        echo "Sorry wrong selection" ;;
+    esac
+done
