@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XALFrameworks'
-  s.version          = '0.1.24.alpha.1'
+  s.version          = '0.1.24'
   s.summary          = 'XALFrameworks'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
   
   s.subspec "APSLibraryAdapter" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSLibraryAdapter.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSLibraryAdapter.framework"
       ss.dependency 'XALFrameworks/APSActivate'
       ss.dependency 'XALFrameworks/APSCloud'
       ss.dependency 'XALFrameworks/APSSupport3rd'
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec "APSActivate" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSActivate.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSActivate.framework"
       ss.dependency 'XALFrameworks/APSUtilities'
       ss.dependency 'XALFrameworks/APSZeus'
       ss.dependency 'XALFrameworks/APSMiddleware'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec "APSCloud" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSCloud.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSCloud.framework"
       ss.dependency 'XALFrameworks/APSZeus'
       ss.dependency 'XALFrameworks/APSMiddleware'
       ss.dependency 'XALFrameworks/APSSdkService'
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec "APSAlex" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSAlex.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSAlex.framework"
       ss.dependency 'XALFrameworks/APSUtilities'
       ss.dependency 'XALFrameworks/APSZeus'
       ss.dependency 'XALFrameworks/APSMiddleware'
@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec "APSSupport3rd" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSSupport3rd.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSSupport3rd.framework"
       ss.dependency 'XALFrameworks/du'
       ss.dependency 'Adjust', '4.18.0'
       ss.dependency 'Flurry-iOS-SDK', '9.3.1'
@@ -68,45 +68,45 @@ Pod::Spec.new do |s|
   
   
   s.subspec "APSMiddleware" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSMiddleware.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSMiddleware.framework"
   end
   
   s.subspec "APSSdkService" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSSdkService.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSSdkService.framework"
   end
   
   s.subspec "APSZeus" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSZeus.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSZeus.framework"
       ss.dependency 'XALFrameworks/APSLogServer'
       
       ss.dependency 'AFNetworking', '3.2.1'
   end
   
   s.subspec "APSAdjust" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSAdjust.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSAdjust.framework"
       
       ss.dependency 'Adjust', '4.18.0'
   end
   
   s.subspec "APSLogServer" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSLogServer.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSLogServer.framework"
       
       ss.dependency 'GCDWebServer', '3.5.3'
   end
   
   s.subspec "APSUtilities" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSUtilities.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSUtilities.framework"
       
       ss.dependency 'Reachability', '3.2'
       ss.dependency 'SAMKeychain', '1.5.3'
   end
   
   s.subspec "APSRouter" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSRouter.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSRouter.framework"
   end
   
   s.subspec "APSFcmPush" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/APSFcmPush.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/APSFcmPush.framework"
       
       ss.dependency 'XALFrameworks/APSAlex' 
       ss.dependency 'Firebase/Core' ,'~> 6.11.0'
@@ -115,7 +115,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec "du" do |ss|
-      ss.ios.vendored_frameworks = "XALFrameworks/Frameworks/du.framework"
+      ss.ios.vendored_frameworks = "Release/Frameworks/du.framework"
   end
   
   #s.source_files = 'XALFrameworks/Classes/**/*'

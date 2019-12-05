@@ -48,6 +48,7 @@
 		A30FC3E6F66301EEDA462AA5 /* Pods_XALFrameworks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XALFrameworks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB461508E186E04C2927E1BA /* Pods-XALFrameworks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XALFrameworks_Example.debug.xcconfig"; path = "Target Support Files/Pods-XALFrameworks_Example/Pods-XALFrameworks_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5055234A8BD8C6FB1014D00 /* Pods_XALFrameworks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XALFrameworks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4D1EA22399100C004D6A9E /* XALFrameworks-Debug.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "XALFrameworks-Debug.podspec"; path = "../XALFrameworks-Debug.podspec"; sourceTree = "<group>"; };
 		CF412729BE0BAED3BD89E152 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7E1443ECA8BF8FE1349E386 /* XALFrameworks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XALFrameworks.podspec; path = ../XALFrameworks.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -160,6 +161,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				BD4D1EA22399100C004D6A9E /* XALFrameworks-Debug.podspec */,
 				F7E1443ECA8BF8FE1349E386 /* XALFrameworks.podspec */,
 				3C14FBE0D1EC26DF7D104E40 /* README.md */,
 				CF412729BE0BAED3BD89E152 /* LICENSE */,
@@ -255,19 +257,31 @@
 				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSActivate.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSAdjust.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSAlex.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSCloud.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSLogServer.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSMiddleware.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSRouter.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSdkService.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSSupport3rd.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSUtilities.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/APSZeus.framework",
-				"${PODS_ROOT}/../../XALFrameworks/Frameworks/du.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSActivate.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSAdjust.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSAlex.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSCloud.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSLogServer.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSMiddleware.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSRouter.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSSdkService.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSSupport3rd.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSUtilities.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/APSZeus.framework",
+				"${PODS_ROOT}/../../Debug/Frameworks/du.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSActivate.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSAdjust.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSAlex.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSCloud.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSLogServer.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSMiddleware.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSRouter.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSSdkService.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSSupport3rd.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSUtilities.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/APSZeus.framework",
+				"${PODS_ROOT}/../../Release/Frameworks/du.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

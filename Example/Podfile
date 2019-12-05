@@ -3,10 +3,12 @@ use_frameworks!
 platform :ios, '9.3'
 
 target 'XALFrameworks_Example' do
-  pod 'XALFrameworks', :path => '../'
-
-  
+#    pod 'XALFrameworks', :path => '../', :configurations => ['Release']
+#    pod 'XALFrameworks-Debug', :podspec => '../XALFrameworks-Debug.podspec', :configurations => ['Debug']
+    pod 'XALFrameworks', :path => '../', :configurations => ['Release']
+    pod 'XALFrameworks-Debug', :path => '../XALFrameworks-Debug.podspec', :configurations => ['Debug']
 end
+
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
