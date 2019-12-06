@@ -2,7 +2,7 @@
 projectName=$1
 POD_REPO_NAME=apusapps
 POD_REPO_URL=https://github.com/apusapps/spec.git
-POD_REPO_MASTER_URL=https://github.com/CocoaPods/Specs.git
+POD_REPO_MASTER_URL=https://cdn.cocoapods.org/
 
 function createRemoteTag() {
     version=`cat ${projectName}.podspec|grep 's.version'|awk -F "[\'\']" '{print $2}'|grep "^\d"`
