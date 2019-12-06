@@ -44,7 +44,7 @@ function createRemoteTag() {
 createRemoteTag
 
 echo "开始进行lint检查."
-pod lib lint ${projectName}.podspec --sources=$POD_REPO_MASTER_URL,$POD_REPO_URL --allow-warnings --skip-import-validation
+pod lib lint ${projectName}.podspec --sources=$POD_REPO_MASTER_URL,$POD_REPO_URL --allow-warnings --skip-import-validation --verbose
 if [ $? -eq 0 ];then
     echo "lint 检查通过，可以进行公共库发布"
 else
@@ -55,7 +55,7 @@ fi
 echo "\nlint检查通过，开始进行SDK发布。\n"
 
 echo "开始进行版本号为 ${version} 的 SDK 发布。\n"
-pod repo push $POD_REPO_NAME ${projectName}.podspec --sources=$POD_REPO_MASTER_URL,$POD_REPO_URL --allow-warnings --skip-import-validation
+pod repo push $POD_REPO_NAME ${projectName}.podspec --sources=$POD_REPO_MASTER_URL,$POD_REPO_URL --allow-warnings --skip-import-validation --verbose
 
 if [ $? -eq 0 ];then
     echo "$2\n"
