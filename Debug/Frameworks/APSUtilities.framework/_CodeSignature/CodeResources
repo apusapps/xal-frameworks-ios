@@ -16,49 +16,21 @@
 		<data>
 		2kKi6bVMya0nM/7K7UDJxE4TtaA=
 		</data>
-		<key>Headers/APSReachability+NetworkType.h</key>
-		<data>
-		CrIzG5ssaqQxNAbAfF5YxbV2q9A=
-		</data>
 		<key>Headers/APSUtilities-umbrella.h</key>
 		<data>
-		LfnJqaRFrkAAeRd4r5Y42PNlxjE=
+		HebvCNHdum2yNY8Nla52Nbb8W+I=
 		</data>
 		<key>Headers/APSUtility.h</key>
 		<data>
 		SZ5cxz9RallE27bWzy6n+N2gJqI=
 		</data>
-		<key>Headers/APSZlibUtil.h</key>
-		<data>
-		8SNvt0dC3rE71w2NS+yi1V7fWe4=
-		</data>
 		<key>Headers/Deflate.h</key>
 		<data>
 		Whq4MTPwO3fmBWnuzKCqdiKc1Zs=
 		</data>
-		<key>Headers/NSData+AES.h</key>
-		<data>
-		qYGkU1AWlwXXiL5L8/rUnwUQJfA=
-		</data>
-		<key>Headers/NSData+CRC32.h</key>
-		<data>
-		CYv3k0u4aJp5npt3tl2/dtlPxgw=
-		</data>
-		<key>Headers/NSString+md5.h</key>
-		<data>
-		eapySflYMcyxh0Mkz9HEp97/X2Q=
-		</data>
-		<key>Headers/NetworkType.h</key>
-		<data>
-		KspM92xR296J28HMQzQWKUyfXjo=
-		</data>
 		<key>Headers/RSA.h</key>
 		<data>
 		ZD1I72sCxB85uR+lEMJ6m6VTKZo=
-		</data>
-		<key>Headers/apsmicro.h</key>
-		<data>
-		RHjARabH7pFKWXv4s+DSVuWoLtk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -104,26 +76,15 @@
 			XojcoSVQWpbOq01xsM8uaD79b7tVngoR7nQ4TlYPzMA=
 			</data>
 		</dict>
-		<key>Headers/APSReachability+NetworkType.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CrIzG5ssaqQxNAbAfF5YxbV2q9A=
-			</data>
-			<key>hash2</key>
-			<data>
-			/TJ+erOf4gGpUTlONc5xp1jRW47Hg9H9ff8oNai+Zdk=
-			</data>
-		</dict>
 		<key>Headers/APSUtilities-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LfnJqaRFrkAAeRd4r5Y42PNlxjE=
+			HebvCNHdum2yNY8Nla52Nbb8W+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			+yzw+sjrYF/bwcz/ZUiX+KwoyD/HslpziysFq4aAh9A=
+			hUxPbLQsGiN97UWc2zvDw4ZOpFjbMrtYPMU5QlKkWhQ=
 			</data>
 		</dict>
 		<key>Headers/APSUtility.h</key>
@@ -137,17 +98,6 @@
 			hGHP2/VG0KgckRXn5kDe8TbFzeL83onx7+g7nLptX7o=
 			</data>
 		</dict>
-		<key>Headers/APSZlibUtil.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8SNvt0dC3rE71w2NS+yi1V7fWe4=
-			</data>
-			<key>hash2</key>
-			<data>
-			2lWCbKVpMvVLSZrIJL5jHTCsOgY9po9jE8BS/iA8HCg=
-			</data>
-		</dict>
 		<key>Headers/Deflate.h</key>
 		<dict>
 			<key>hash</key>
@@ -159,50 +109,6 @@
 			FfuX/nK5fyj3pFDczeM6RxJ/RY8kEzMIIHG28BujejI=
 			</data>
 		</dict>
-		<key>Headers/NSData+AES.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qYGkU1AWlwXXiL5L8/rUnwUQJfA=
-			</data>
-			<key>hash2</key>
-			<data>
-			o1Vmwf4XYw/Ir6Cj3MVswox4VpSIYBrwaJ++YpSsAfY=
-			</data>
-		</dict>
-		<key>Headers/NSData+CRC32.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CYv3k0u4aJp5npt3tl2/dtlPxgw=
-			</data>
-			<key>hash2</key>
-			<data>
-			vPcM9H2DmMLACuJs5kGJEk1xqBel+bzuCduprzMK6fs=
-			</data>
-		</dict>
-		<key>Headers/NSString+md5.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eapySflYMcyxh0Mkz9HEp97/X2Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			WE+4iAIw0aWzZ//vvBhBnQXgIkKagmdwgEUGx0G5/bo=
-			</data>
-		</dict>
-		<key>Headers/NetworkType.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KspM92xR296J28HMQzQWKUyfXjo=
-			</data>
-			<key>hash2</key>
-			<data>
-			i6SvhgroAs6mbGSgKmsjfzA9grnZ1eFW/lYWmO5B/r4=
-			</data>
-		</dict>
 		<key>Headers/RSA.h</key>
 		<dict>
 			<key>hash</key>
@@ -212,17 +118,6 @@
 			<key>hash2</key>
 			<data>
 			pv2+/ViGBTj1pqQbpdfaaQE9iD/RZhmH1utXFnv50FY=
-			</data>
-		</dict>
-		<key>Headers/apsmicro.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RHjARabH7pFKWXv4s+DSVuWoLtk=
-			</data>
-			<key>hash2</key>
-			<data>
-			eLCyxOWQRcSBUYU0pw2Z++iGRkZvGpLSuOuRCqGR38o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

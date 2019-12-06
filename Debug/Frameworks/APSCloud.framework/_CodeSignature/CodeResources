@@ -6,31 +6,23 @@
 	<dict>
 		<key>Headers/APSCloud-umbrella.h</key>
 		<data>
-		TJu4WBQuGULUALEeBiAPpAwyvco=
+		xZY6GKUefjYUe6zoiTdrwadvaMw=
 		</data>
 		<key>Headers/APSCloudConfig.h</key>
 		<data>
-		z91zlFkn//vSi7wluEpwGguu9BI=
+		JHudT72wlRCnXG5YSGeFfPHjhjI=
 		</data>
 		<key>Headers/APSCloudConfigProtocol.h</key>
 		<data>
 		0gW8TcspSczh9ZLCWa4BfVSVl78=
 		</data>
-		<key>Headers/APSCloudEnv.h</key>
-		<data>
-		nNput4CMSszFH0amfFZI13TP2dU=
-		</data>
 		<key>Headers/APSCloudSDK.h</key>
 		<data>
 		XPP2DlTeXuuoISYdwjZkFrniB+o=
 		</data>
-		<key>Headers/APSPeriodic.h</key>
-		<data>
-		6TPemtyR5yCXXQ3Ufe6RJf8Kerg=
-		</data>
 		<key>Headers/APSRemoteConfig.h</key>
 		<data>
-		0DvLv+djfEfJdggPuAM8byAsidI=
+		KTb+H+jVuvoC3o7lg71nWsoltHg=
 		</data>
 		<key>Headers/APSRemoteConfigFactory.h</key>
 		<data>
@@ -51,22 +43,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TJu4WBQuGULUALEeBiAPpAwyvco=
+			xZY6GKUefjYUe6zoiTdrwadvaMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8loIP8x/znoJlGMpoqRdO80ppNrWMvL+kwWGAX7HZXw=
+			6zwq3k53iX3ee5XOKYrv1U9E7+pEcULuNAsXcc2S/rg=
 			</data>
 		</dict>
 		<key>Headers/APSCloudConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z91zlFkn//vSi7wluEpwGguu9BI=
+			JHudT72wlRCnXG5YSGeFfPHjhjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tXv1++XqBPE58BOltL0LtbU+1BC/6HuVEdnUljvzGvY=
+			fVC4A3BpxWlh1v4SG0ZFzTUtaOOYqIASXnJpTaGdR/k=
 			</data>
 		</dict>
 		<key>Headers/APSCloudConfigProtocol.h</key>
@@ -80,17 +72,6 @@
 			yStto0DfMtjiiAnpKKNdBRC/hPT5cgvrOedt8u/7MnQ=
 			</data>
 		</dict>
-		<key>Headers/APSCloudEnv.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nNput4CMSszFH0amfFZI13TP2dU=
-			</data>
-			<key>hash2</key>
-			<data>
-			FieoJMsQEpL7A6cTDMR3TsSpyUn3A9KRrxBbOZ1vmzY=
-			</data>
-		</dict>
 		<key>Headers/APSCloudSDK.h</key>
 		<dict>
 			<key>hash</key>
@@ -102,26 +83,15 @@
 			hCkAmempi7nkoxlnCAOAqt9rauxMdEUp1TkWSo12vR8=
 			</data>
 		</dict>
-		<key>Headers/APSPeriodic.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6TPemtyR5yCXXQ3Ufe6RJf8Kerg=
-			</data>
-			<key>hash2</key>
-			<data>
-			3pGPg/VQLU9Ab82IRVHbgVA/gWDEaGoeuPO118LsaWw=
-			</data>
-		</dict>
 		<key>Headers/APSRemoteConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0DvLv+djfEfJdggPuAM8byAsidI=
+			KTb+H+jVuvoC3o7lg71nWsoltHg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fYJI/BO3SX7Km9BlmT6aixblS3WSeECH3hfVjg9wHwE=
+			Q1x/6IJLZ+4og6wOJLUP4U6bglbzfMvio/ekpVaJaw8=
 			</data>
 		</dict>
 		<key>Headers/APSRemoteConfigFactory.h</key>

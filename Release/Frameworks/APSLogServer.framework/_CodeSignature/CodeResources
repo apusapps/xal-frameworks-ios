@@ -8,21 +8,13 @@
 		<data>
 		59hsR72gfnkgD/CxYWDvlKltHG4=
 		</data>
-		<key>Headers/APSLogPrivate.h</key>
-		<data>
-		8ATyGD33I66NFFvSwYs/glYe9s8=
-		</data>
 		<key>Headers/APSLogServer-umbrella.h</key>
 		<data>
-		QjolVvVoGXffhD6Ac0n+E8n4k3g=
+		48WebsQ2j5fMwiGCAyaPcaYTB9M=
 		</data>
 		<key>Headers/APSLogServer.h</key>
 		<data>
 		Mds1iXSv8JcxoWV2Vz8hLpwgeEM=
-		</data>
-		<key>Headers/APSPageInfo.h</key>
-		<data>
-		gttN+KlZcHIP751cpXpjBurrqL0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -46,26 +38,15 @@
 			mQxVH32im3preNem329/1o+5T/TT/KJWBQn1/XLUZVo=
 			</data>
 		</dict>
-		<key>Headers/APSLogPrivate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8ATyGD33I66NFFvSwYs/glYe9s8=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ol9vexrhChrPcGkm+ODbdsAT43hdcguf1DJVo9cJTxU=
-			</data>
-		</dict>
 		<key>Headers/APSLogServer-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QjolVvVoGXffhD6Ac0n+E8n4k3g=
+			48WebsQ2j5fMwiGCAyaPcaYTB9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			CM9RDLO1xFSBfauQ5H+s62U8bwfsgZ6wWY9T984jtyI=
+			pDCDAnPYXoChFYtPi2NQGn4XT7UQMUqsdewYxpXIQW4=
 			</data>
 		</dict>
 		<key>Headers/APSLogServer.h</key>
@@ -77,17 +58,6 @@
 			<key>hash2</key>
 			<data>
 			DK/pdwfLL/jwFfOMOk9f+JN+rpIm/3tuRGhRGvq7ZYM=
-			</data>
-		</dict>
-		<key>Headers/APSPageInfo.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gttN+KlZcHIP751cpXpjBurrqL0=
-			</data>
-			<key>hash2</key>
-			<data>
-			LT31flTWT/i6Uqj5rqqmi+b3msOFASiwS2I93uBk3w0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

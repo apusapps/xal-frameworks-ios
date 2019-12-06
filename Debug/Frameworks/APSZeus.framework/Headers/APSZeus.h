@@ -1,10 +1,10 @@
-//
-//  APSZeus.h
-//  Apollo
-//
-//  Created by apus on 2019/6/11.
-//  Copyright © 2019 apus.cuixuerui.com. All rights reserved.
-//
+
+
+
+
+
+
+
 
 #import <Foundation/Foundation.h>
 #import "APSZeusRequest.h"
@@ -43,143 +43,79 @@ typedef APSZeus *_Nonnull(^APSZeusHeadersBlock)(NSDictionary<NSString *, NSStrin
     NSDictionary<NSString *, NSString *> *  _headers;
 }
 
-#pragma mark - 链式调用属性
 
-/**
- 设置 RequestSerializer JSON or FBS，默认为 FBS
- */
+
+
 @property (nonatomic, copy, readonly) APSZeusRequestSerializerTypeBlock requestSerializerTypePromise;
 
-/**
- 设置 ResponseSerializer JSON or FBS，默认为 FBS
- */
+
 @property (nonatomic, copy, readonly) APSZeusResponseSerializerTypeBlock responseSerializerTypePromise;
 
 
-/**
- 设置 请求方法 默认为 POST
- */
+
 @property (nonatomic, copy, readonly) APSZeusRequestMethedBlock requestMethedPromise;
 
-/**
-  设置 xorkey 默认为 0
- */
+
 @property (nonatomic, copy, readonly) APSZeusXorKeyBlock xorkeyPromise;
 
-/**
- 设置 protocol 版本 默认为 0
- */
+
 @property (nonatomic, copy, readonly) APSZeusProtocolVCBlock protocolVCPromise;
 
-/**
- 设置是否压缩，true or false 默认为 true
- */
+
 @property (nonatomic, copy, readonly) APSZeusCompressBlock compressPromise;
 
-/**
- 设置 insertAtBeginBody， 默认为 0x2018
- */
+
 @property (nonatomic, copy, readonly) APSZeusInsertAtBeginBodyBlock insertAtBeginBodyPromise;
 
-/**
- 设置 package name
- */
+
 @property (nonatomic, copy, readonly) APSZeusPackageNameBlock packageNamePromise;
 
-/**
- 设置 release 版本号 UInt32 version
- */
+
 @property (nonatomic, copy, readonly) APSZeusReleaseVersionBlock releaseVersionPromise;
 
-/**
- 设置 bigEndian true or false，默认为 true
- */
+
 @property (nonatomic, copy, readonly) APSZeusBigEndianBlock bigEndianPromise;
 
-/**
- 设置 uploadOSType true or false，默认为 true
- */
+
 @property (nonatomic, copy, readonly) APSZeusUploadOSTypeBlock uploadOSTypePromise;
 
-/**
- 设置 不遵从协议，默认遵从协议
- */
+
 @property (nonatomic, copy, readonly) APSZeusNonProtocolBlock nonProtocolPromise;
 
-/**
- 设置自定义 header
- */
+
 @property (nonatomic, copy, readonly) APSZeusHeadersBlock headersPromise;
 
-/**
- JSON 快捷设置 GET 方法
- */
+
 @property (nonatomic, copy, readonly) APSZeus * GET;
 
-/**
- JSON快捷设置 POST 方法
- */
+
 @property (nonatomic, copy, readonly) APSZeus * POST;
 
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
 
-/**
- FBS 方式初始化
 
- @param url 请求地址
- @param data 请求数据
- @param xorKey key
- @param version 版本
- @return request
- */
 - (instancetype)initWithFBSUrl:(NSString *)url
                 requestData:(NSData *)data
                     xorKey:(UInt8)xorKey
                    version:(UInt8)version;
 
-/**
- FBS 初始化
 
- @param url 请求地址
- @param data 请求数据
- @return request
- */
 - (instancetype)initWithFBSUrl:(NSString *)url
                 requestData:(NSData *)data;
 
-/**
- JSON 方式初始化
 
- @param url 请求地址
- @param argument 请求参数
- @return request
- */
 - (instancetype)initWithJSONUrl:(NSString *)url
             requestArgument:(nullable id)argument;
 
-/**
- JSON 方式初始化
 
- @param url 请求参数
- @param argument 请求参数
- @param methed 请求方法 POST、GET ...
- @return request
- */
 - (instancetype)initWithJSONUrl:(NSString *)url
                 requestArgument:(nullable id)argument
                          methed:(APSRequestMethod)methed;
 
 
-/**
- 下载初始化
 
- @param url 下载链接
- @param filePath 文件保存路径
- @param argument 请求参数
- @return request
- */
 - (instancetype)initWithDownloadURL:(NSString *)url
                      filePath:(nullable NSString *)filePath
                     requestArgument:(nullable id)argument;

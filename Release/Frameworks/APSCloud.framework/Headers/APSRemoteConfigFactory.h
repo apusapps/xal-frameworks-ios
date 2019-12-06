@@ -1,10 +1,10 @@
-//
-//  APSRemoteConfigFactory.h
-//  APSConfigDemo
-//
-//  Created by apus on 2019/7/1.
-//  Copyright © 2019 apus.cuixuerui.com. All rights reserved.
-//
+
+
+
+
+
+
+
 
 #import <Foundation/Foundation.h>
 #import "APSCloudSDK.h"

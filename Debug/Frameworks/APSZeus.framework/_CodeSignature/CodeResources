@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/APSNetworkAgent.h</key>
-		<data>
-		Y2vRTj3S1nPcp81TsqaiLAHqvhA=
-		</data>
 		<key>Headers/APSZeus-umbrella.h</key>
 		<data>
-		xlapgxvKyguke7ysmfLfVmx59gU=
+		L0/mvDS6jFvJPGjhzka3E4GGWeI=
 		</data>
 		<key>Headers/APSZeus.h</key>
 		<data>
@@ -35,26 +31,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/APSNetworkAgent.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y2vRTj3S1nPcp81TsqaiLAHqvhA=
-			</data>
-			<key>hash2</key>
-			<data>
-			HRulGsnG7qxXyl+TI626DeKW4/rJvqMUXV5j3DIHMF8=
-			</data>
-		</dict>
 		<key>Headers/APSZeus-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xlapgxvKyguke7ysmfLfVmx59gU=
+			L0/mvDS6jFvJPGjhzka3E4GGWeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ibTnazlZJ8QTe/kyFfDzGQVkfy17JRgmTKAnDFsmrlA=
+			PKtaSawhn306//IAlUOTBiGOEV4izn9so2rIMebOtas=
 			</data>
 		</dict>
 		<key>Headers/APSZeus.h</key>

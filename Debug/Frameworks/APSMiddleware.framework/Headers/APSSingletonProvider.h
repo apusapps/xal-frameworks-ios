@@ -1,9 +1,9 @@
-//
-//  APSSingletonProvider.h
-//  APSMiddleware
-//
-//  Created by zhangfenglin on 2019/6/27.
-//
+
+
+
+
+
+
 
 #import "APSProvider.h"
 #import "APSBridge.h"

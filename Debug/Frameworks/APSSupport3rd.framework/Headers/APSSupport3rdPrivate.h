@@ -1,9 +1,9 @@
-//
-//  APSBranchManager+private.h
-//  APSMiddleware
-//
-//  Created by apus on 2019/7/11.
-//
+
+
+
+
+
+
 
 
 #if DU_POD_INCLUDE
@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 #if DU_POD_INCLUDE
 @interface APSDuManager (protect)
 
-//+ (instancetype)shared;
+
 - (NSString *)getDID;
 - (void)getDIDBlock:(void (^)(NSString * _Nullable deviceID))block;
 - (void)start;
@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 #if FLURRY_POD_INCLUDE
 @interface APSFlurryManager (protect)
 
-//+ (instancetype)shared;
+
 - (void)start;
 - (void)logEvent:(nonnull NSString *)eventName;
 - (void)logEvent:(nonnull NSString *)eventName

@@ -1,9 +1,9 @@
-//
-//  APSActivateConfig.h
-//  APSActivate
-//
-//  Created by zhangfenglin on 2019/7/1.
-//
+
+
+
+
+
+
 
 #import <Foundation/Foundation.h>
 #import "APSActivateConfigDelegate.h"

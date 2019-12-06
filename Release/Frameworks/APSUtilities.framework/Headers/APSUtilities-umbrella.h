@@ -11,17 +11,10 @@
 #endif
 
 #import "APSAESManager.h"
-#import "NSData+AES.h"
 #import "APSDeviceUtil.h"
-#import "apsmicro.h"
 #import "APSParameter.h"
-#import "APSReachability+NetworkType.h"
 #import "APSUtility.h"
-#import "APSZlibUtil.h"
-#import "NSData+CRC32.h"
 #import "Deflate.h"
-#import "NSString+md5.h"
-#import "NetworkType.h"
 #import "RSA.h"
 
 FOUNDATION_EXPORT double APSUtilitiesVersionNumber;
