@@ -14,7 +14,7 @@
 @import APSCloud;
 @import APSSdkService;
 
-@interface APSRecordConfig_ : APSEventLoggerConfig
+@interface APSRecordConfig_ : NSObject<APSEventLoggerConfigDelegate>
 
     @end
 @implementation APSRecordConfig_
@@ -35,7 +35,11 @@
     return YES;
 }
 
-    @end
+- (nonnull id)getType {
+    return @protocol(APSEventLoggerConfigDelegate);
+}
+
+@end
 
 @interface ActivateConfig : NSObject  <APSActivateConfigDelegate>
 

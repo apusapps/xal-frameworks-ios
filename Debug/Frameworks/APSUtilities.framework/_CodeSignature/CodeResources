@@ -18,11 +18,15 @@
 		</data>
 		<key>Headers/APSUtilities-umbrella.h</key>
 		<data>
-		HebvCNHdum2yNY8Nla52Nbb8W+I=
+		8xksU34iueTqEz9g+tGXELwydrQ=
 		</data>
 		<key>Headers/APSUtility.h</key>
 		<data>
 		SZ5cxz9RallE27bWzy6n+N2gJqI=
+		</data>
+		<key>Headers/APSZlibUtil.h</key>
+		<data>
+		8SNvt0dC3rE71w2NS+yi1V7fWe4=
 		</data>
 		<key>Headers/Deflate.h</key>
 		<data>
@@ -80,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HebvCNHdum2yNY8Nla52Nbb8W+I=
+			8xksU34iueTqEz9g+tGXELwydrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hUxPbLQsGiN97UWc2zvDw4ZOpFjbMrtYPMU5QlKkWhQ=
+			Vh6CIWavh9eNdlofP5CUbMk4inHA9EfMXGSaJ5ITcPE=
 			</data>
 		</dict>
 		<key>Headers/APSUtility.h</key>
@@ -96,6 +100,17 @@
 			<key>hash2</key>
 			<data>
 			hGHP2/VG0KgckRXn5kDe8TbFzeL83onx7+g7nLptX7o=
+			</data>
+		</dict>
+		<key>Headers/APSZlibUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8SNvt0dC3rE71w2NS+yi1V7fWe4=
+			</data>
+			<key>hash2</key>
+			<data>
+			2lWCbKVpMvVLSZrIJL5jHTCsOgY9po9jE8BS/iA8HCg=
 			</data>
 		</dict>
 		<key>Headers/Deflate.h</key>

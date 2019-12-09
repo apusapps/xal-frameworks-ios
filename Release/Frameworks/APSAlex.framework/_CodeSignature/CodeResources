@@ -6,23 +6,11 @@
 	<dict>
 		<key>Headers/APSAlex-umbrella.h</key>
 		<data>
-		l0asTcKPiMpefyryvK55vPFxJnA=
-		</data>
-		<key>Headers/APSAlexUtility.h</key>
-		<data>
-		b+a9jArvJXlU97f50/JVngkftsc=
-		</data>
-		<key>Headers/APSEventLogger.h</key>
-		<data>
-		JZ4IoCLXdPDcE8wTIt6D5SY6FI0=
-		</data>
-		<key>Headers/APSEventLoggerConfig.h</key>
-		<data>
-		N7V045nAbXEtzwAgzsjB9B5iX8U=
+		BtY//5l9/vbR0tNvqlDcpjTJcKI=
 		</data>
 		<key>Headers/APSEventLoggerConfigDelegate.h</key>
 		<data>
-		nhvaH+Jn8C1Bv5nzZRyCsUGPlR8=
+		qbykOEpvSi9LaYWSFsN7E/rfRxU=
 		</data>
 		<key>Headers/APSEventLoggerDelegate.h</key>
 		<data>
@@ -31,10 +19,6 @@
 		<key>Headers/APSEventLoggerFactory.h</key>
 		<data>
 		b3OwjtmZAaqYh90QVfxrAOK9D+Q=
-		</data>
-		<key>Headers/APSEventRecordStates.h</key>
-		<data>
-		xTHtCfTbzxKRyC24cBCUZ8dph20=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -51,55 +35,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l0asTcKPiMpefyryvK55vPFxJnA=
+			BtY//5l9/vbR0tNvqlDcpjTJcKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uuZau8CXFBew5ZpwmQ+uzvAJ6ZoX4kLEUWwdHtfEO5c=
-			</data>
-		</dict>
-		<key>Headers/APSAlexUtility.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b+a9jArvJXlU97f50/JVngkftsc=
-			</data>
-			<key>hash2</key>
-			<data>
-			XthiMcE/G3Varei1se5reAtHkMueOOOLzLmdZYkxDps=
-			</data>
-		</dict>
-		<key>Headers/APSEventLogger.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JZ4IoCLXdPDcE8wTIt6D5SY6FI0=
-			</data>
-			<key>hash2</key>
-			<data>
-			FOnkXZMuEknFSTdaVKGRez45v8F4jJwgAXiGnwLGgWk=
-			</data>
-		</dict>
-		<key>Headers/APSEventLoggerConfig.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N7V045nAbXEtzwAgzsjB9B5iX8U=
-			</data>
-			<key>hash2</key>
-			<data>
-			KBDe4n93GQk76QDlOCwZ1Xe7sxdjAOrY4tu7cThAfRY=
+			58bq4Z33YggpxS5cm2bG85/oMilyJZk2+2V/o1dL454=
 			</data>
 		</dict>
 		<key>Headers/APSEventLoggerConfigDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nhvaH+Jn8C1Bv5nzZRyCsUGPlR8=
+			qbykOEpvSi9LaYWSFsN7E/rfRxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			q+39LbJ/Q8ocFPTPEUzCSNHXGg/O9t3LAxcwxcVm/0c=
+			UgKvjIpYXRCtdBGWH+ro9nJAHtz804LihkWElH7Tch4=
 			</data>
 		</dict>
 		<key>Headers/APSEventLoggerDelegate.h</key>
@@ -122,17 +73,6 @@
 			<key>hash2</key>
 			<data>
 			d+zuOnj8eQ2rBZIafkAzasfzyDs/dK7OkDKXMIn08MA=
-			</data>
-		</dict>
-		<key>Headers/APSEventRecordStates.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xTHtCfTbzxKRyC24cBCUZ8dph20=
-			</data>
-			<key>hash2</key>
-			<data>
-			9jZL4SN87bfmamZKp/T+i+EDUcCZ+SCdcIBoSyJaB9k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

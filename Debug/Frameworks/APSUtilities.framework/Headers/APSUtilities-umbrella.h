@@ -10,12 +10,13 @@
 #endif
 #endif
 
-#import "APSAESManager.h"
-#import "APSDeviceUtil.h"
 #import "APSParameter.h"
 #import "APSUtility.h"
+#import "APSAESManager.h"
 #import "Deflate.h"
 #import "RSA.h"
+#import "APSZlibUtil.h"
+#import "APSDeviceUtil.h"
 
 FOUNDATION_EXPORT double APSUtilitiesVersionNumber;
 FOUNDATION_EXPORT const unsigned char APSUtilitiesVersionString[];

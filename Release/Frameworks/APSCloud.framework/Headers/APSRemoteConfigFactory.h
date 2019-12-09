@@ -7,7 +7,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "APSCloudSDK.h"
+#import <APSMiddleware/APSFactory.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

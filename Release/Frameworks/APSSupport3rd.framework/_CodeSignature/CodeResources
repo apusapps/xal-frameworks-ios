@@ -14,19 +14,11 @@
 		</data>
 		<key>Headers/APSSupport3rd-umbrella.h</key>
 		<data>
-		GxNiorAdOwksr2+plPAX481O1VU=
+		VreOYrK6UL7XehaeVeZao4Tx8b4=
 		</data>
 		<key>Headers/APSSupport3rdManager.h</key>
 		<data>
 		5oYyBtNSVuEJjWi/EVvmJyZowQY=
-		</data>
-		<key>Headers/APSSupport3rdPrivate.h</key>
-		<data>
-		bb10MkD13C80y13WcnEztELgtdU=
-		</data>
-		<key>Headers/APSSupport3rdSDK.h</key>
-		<data>
-		RZ98CuGOAR3DqtYREAhArFnUNBw=
 		</data>
 		<key>Headers/APSSupport3rdSDKFactory.h</key>
 		<data>
@@ -69,11 +61,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GxNiorAdOwksr2+plPAX481O1VU=
+			VreOYrK6UL7XehaeVeZao4Tx8b4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XaUCTtVRQHP2B5WqUcKkCy4JkR6cnMqQA+XO8UbnGVY=
+			bUfY2bl7jrTdRv+7AwJqoBIcPsNKBdOAsvAaGyUb83w=
 			</data>
 		</dict>
 		<key>Headers/APSSupport3rdManager.h</key>
@@ -85,28 +77,6 @@
 			<key>hash2</key>
 			<data>
 			+Es8apVG29bXfcrrRgqvNr9/4UbizMBKR2c0nKcqIIg=
-			</data>
-		</dict>
-		<key>Headers/APSSupport3rdPrivate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bb10MkD13C80y13WcnEztELgtdU=
-			</data>
-			<key>hash2</key>
-			<data>
-			s26TmRYOXxCxLTMNCLqwUmCsgILFt4w2Ov15HUrL6Q8=
-			</data>
-		</dict>
-		<key>Headers/APSSupport3rdSDK.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RZ98CuGOAR3DqtYREAhArFnUNBw=
-			</data>
-			<key>hash2</key>
-			<data>
-			XbbaH64LWsytxiBAMQZYy8Nywv1X8utqrn0S26PxLtw=
 			</data>
 		</dict>
 		<key>Headers/APSSupport3rdSDKFactory.h</key>

@@ -10,13 +10,9 @@
 #endif
 #endif
 
-#import "APSAlexUtility.h"
-#import "APSEventLoggerConfig.h"
 #import "APSEventLoggerConfigDelegate.h"
-#import "APSEventLoggerDelegate.h"
 #import "APSEventLoggerFactory.h"
-#import "APSEventLogger.h"
-#import "APSEventRecordStates.h"
+#import "APSEventLoggerDelegate.h"
 
 FOUNDATION_EXPORT double APSAlexVersionNumber;
 FOUNDATION_EXPORT const unsigned char APSAlexVersionString[];

@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "APSBridge.h"
 #import "APSServiceRegistry.h"
+#import "APSProvider.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

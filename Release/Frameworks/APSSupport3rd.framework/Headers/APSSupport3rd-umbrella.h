@@ -11,8 +11,6 @@
 #endif
 
 #import "APSSupport3rdManager.h"
-#import "APSSupport3rdPrivate.h"
-#import "APSSupport3rdSDK.h"
 #import "APSSupport3rdSDKFactory.h"
 #import "APSDuManager.h"
 #import "APSFlurryManager.h"

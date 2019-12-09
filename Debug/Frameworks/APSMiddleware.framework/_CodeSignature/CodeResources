@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/APSBridge.h</key>
 		<data>
-		Y+Wmk1DFQuif0pFVDMcsaVgNssk=
+		SLWya0MscnMRYUAbbFB82diRBRw=
 		</data>
 		<key>Headers/APSFactory.h</key>
 		<data>
-		9oQDxX36CtfP5FQVkvQTcENQtPM=
+		S91YdbjzjOoluloVsMsJ//lMvHE=
 		</data>
 		<key>Headers/APSIBoot.h</key>
 		<data>
@@ -22,19 +22,11 @@
 		</data>
 		<key>Headers/APSMiddleware-umbrella.h</key>
 		<data>
-		Fr4VhrRVyUvXeSDPITxFoNGS608=
-		</data>
-		<key>Headers/APSOptionRegistry.h</key>
-		<data>
-		K6BjL32jLSfxqKOmwo4NmDj3JwE=
+		xcFK5uMynpalB7t22cycNnEdWAg=
 		</data>
 		<key>Headers/APSProvider.h</key>
 		<data>
 		0PBeh8eKrFMushdBBSeVxwJPiuI=
-		</data>
-		<key>Headers/APSProviderWrap.h</key>
-		<data>
-		8WOqpy4FGXM4/aSTqzi5g/0vvvc=
 		</data>
 		<key>Headers/APSSdk.h</key>
 		<data>
@@ -48,13 +40,9 @@
 		<data>
 		Lh0YsBH/+X5i1Y2Xe0E3VqMfwk0=
 		</data>
-		<key>Headers/APSSdkRegistry.h</key>
-		<data>
-		xpXkkTgzKx4oHdGRv7AlJdS0W5E=
-		</data>
 		<key>Headers/APSServiceRegistry.h</key>
 		<data>
-		xf6NLO745FPz/a8nJOCiGUYYxuM=
+		hD1u54yReKBqTJapzJUWkVe5tqc=
 		</data>
 		<key>Headers/APSSingleSdkBoot.h</key>
 		<data>
@@ -64,13 +52,9 @@
 		<data>
 		30qz5kzo2/3b+g3KVe5wKJ1EMAQ=
 		</data>
-		<key>Headers/RegistryKeyUtil.h</key>
-		<data>
-		SDfFVncsANimT/945XyoYwx9HgQ=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		NVR8CC5Wp6JT0lnkUc9oNvlqIuw=
+		oS3N/oSUqMPIXqXFkuthw2Tq1eM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,22 +78,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y+Wmk1DFQuif0pFVDMcsaVgNssk=
+			SLWya0MscnMRYUAbbFB82diRBRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			17XJn+r2NZyF29/czj8BLKZE37mLlMGr8ILPpNvUPEI=
+			66kOh2K1d4Rd6o6+/svROYrX7Xi854gFs8nlOIgkpt0=
 			</data>
 		</dict>
 		<key>Headers/APSFactory.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9oQDxX36CtfP5FQVkvQTcENQtPM=
+			S91YdbjzjOoluloVsMsJ//lMvHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3PmJLPKjIbvK52NwH5H5KND2oFR/8aOBZbGCyfY0QMA=
+			+Ijo9/BDFP15NEAUFKS2hImp92TZtwgLTVjekhck1AU=
 			</data>
 		</dict>
 		<key>Headers/APSIBoot.h</key>
@@ -127,22 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fr4VhrRVyUvXeSDPITxFoNGS608=
+			xcFK5uMynpalB7t22cycNnEdWAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rdGvcqtfcPf7rCwlm30LN0HkbrnpqHcbRnQF0cem9WM=
-			</data>
-		</dict>
-		<key>Headers/APSOptionRegistry.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K6BjL32jLSfxqKOmwo4NmDj3JwE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ODqTD3JP4GGwRmlfYS3AFq90f8Iv4NeHZhu8CH+jVs0=
+			YCkLFqCVK+p9F6mN3DmKOF4bEGUAdH4BooB79jzaj2M=
 			</data>
 		</dict>
 		<key>Headers/APSProvider.h</key>
@@ -154,17 +127,6 @@
 			<key>hash2</key>
 			<data>
 			QkiQt2lEMMCSEQZKEcEAEKTUijV/coWLyCCkuWPDWTE=
-			</data>
-		</dict>
-		<key>Headers/APSProviderWrap.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8WOqpy4FGXM4/aSTqzi5g/0vvvc=
-			</data>
-			<key>hash2</key>
-			<data>
-			USJqsstxKZSwcKMkCSlMT3VaQ23BuH+C6G5azkXmg/M=
 			</data>
 		</dict>
 		<key>Headers/APSSdk.h</key>
@@ -200,26 +162,15 @@
 			DnTWfAAmnf1QQeeBNeWTuNdXmRATX/GVExtsjk030Pc=
 			</data>
 		</dict>
-		<key>Headers/APSSdkRegistry.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xpXkkTgzKx4oHdGRv7AlJdS0W5E=
-			</data>
-			<key>hash2</key>
-			<data>
-			cR8jKoycls95JFz593nA2scFo1Db6Ic2H8tSKFJC2Kk=
-			</data>
-		</dict>
 		<key>Headers/APSServiceRegistry.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xf6NLO745FPz/a8nJOCiGUYYxuM=
+			hD1u54yReKBqTJapzJUWkVe5tqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			E9/EWLYm1iUp7cvWovjano/7N44JWFc7OavwFW4h/mA=
+			+94bTffD8N4R4wXkA6OcWkp2vZ6zjJg+svU1+uqh+8U=
 			</data>
 		</dict>
 		<key>Headers/APSSingleSdkBoot.h</key>
@@ -242,17 +193,6 @@
 			<key>hash2</key>
 			<data>
 			HPrYcSy5vBC8ss4kFJ0YZBAp1UpGgEWbmu7N3KlAQNM=
-			</data>
-		</dict>
-		<key>Headers/RegistryKeyUtil.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SDfFVncsANimT/945XyoYwx9HgQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			AC0HJGkv8iQggQqxqam34pZh4iAD/O93GQp0H2B2P9k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -7,6 +7,8 @@
 //
 
 #import "APSViewController.h"
+#import <APSMiddleware/APSSdk.h>
+#import <APSAlex/APSEventLoggerDelegate.h>
 
 @interface APSViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    id<APSEventLoggerDelegate> alex = [APSSdk getSdk:@protocol(APSEventLoggerDelegate)];
+    [alex entryHomePage:NSStringFromClass([self class])];
 }
 
 - (void)didReceiveMemoryWarning

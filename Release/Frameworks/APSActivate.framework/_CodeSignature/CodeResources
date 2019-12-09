@@ -6,19 +6,11 @@
 	<dict>
 		<key>Headers/APSActivate-umbrella.h</key>
 		<data>
-		F4DMros8RiJWZNJ2XCWShCitZww=
-		</data>
-		<key>Headers/APSActivate.h</key>
-		<data>
-		4xS8eDtjwbcHkSEuHpWHhajh3Lk=
+		AvnFTF4py5CvD7ma7f5XMrW/Lps=
 		</data>
 		<key>Headers/APSActivateConfigDelegate.h</key>
 		<data>
 		n2XeBvxSjxRJKSU9BuL7V+qOYmU=
-		</data>
-		<key>Headers/APSActivateDefaultConfig.h</key>
-		<data>
-		w+hHKy52pv+Ff0N+hW2A2o3yPsw=
 		</data>
 		<key>Headers/APSActivateDelegate.h</key>
 		<data>
@@ -28,17 +20,9 @@
 		<data>
 		rujptHQKieHIvY7K6s66+0/7PF0=
 		</data>
-		<key>Headers/APSActivateStatisticsConstants.h</key>
-		<data>
-		26eFpkM117raiNXsIVu5JGjB+0I=
-		</data>
 		<key>Headers/APSUserTagConfigDelegate.h</key>
 		<data>
 		wC5AU+g3Xd/bD9S462h16U7KOmc=
-		</data>
-		<key>Headers/APSUserTagServiceImpl.h</key>
-		<data>
-		ANf2VvEdXEoksc0wt+oZzI0xioI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -55,22 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F4DMros8RiJWZNJ2XCWShCitZww=
+			AvnFTF4py5CvD7ma7f5XMrW/Lps=
 			</data>
 			<key>hash2</key>
 			<data>
-			vrV0iurKH23lwiVHOg4V7kV9A+Ym6iZv6MA83X2XX3c=
-			</data>
-		</dict>
-		<key>Headers/APSActivate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4xS8eDtjwbcHkSEuHpWHhajh3Lk=
-			</data>
-			<key>hash2</key>
-			<data>
-			xyaxYcJ5F8heKfSzSz/la4ME9blggoo3zHkSqB5JykU=
+			F89YW17Z+lD6933kbqeRNgiXqmCsksAPnZmOsgfXWV8=
 			</data>
 		</dict>
 		<key>Headers/APSActivateConfigDelegate.h</key>
@@ -82,17 +55,6 @@
 			<key>hash2</key>
 			<data>
 			hySh/No7XDjQ/i1iaw0lziUZGVhRO9ebDFObLIERDD4=
-			</data>
-		</dict>
-		<key>Headers/APSActivateDefaultConfig.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w+hHKy52pv+Ff0N+hW2A2o3yPsw=
-			</data>
-			<key>hash2</key>
-			<data>
-			U84YJA5xQs/MqURU5HwIggjpXYS/PiXESyD84GIxAAE=
 			</data>
 		</dict>
 		<key>Headers/APSActivateDelegate.h</key>
@@ -117,17 +79,6 @@
 			NTYnCUHiZXcZVXtHRGiW6O9/CNMjP/HrsqoUklyx7CA=
 			</data>
 		</dict>
-		<key>Headers/APSActivateStatisticsConstants.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			26eFpkM117raiNXsIVu5JGjB+0I=
-			</data>
-			<key>hash2</key>
-			<data>
-			f/mbmFoKrafGQJDzX9PlKttb0MGoLndq02k2JETAzyY=
-			</data>
-		</dict>
 		<key>Headers/APSUserTagConfigDelegate.h</key>
 		<dict>
 			<key>hash</key>
@@ -137,17 +88,6 @@
 			<key>hash2</key>
 			<data>
 			OiHlLnaK2N27uLeA0ONi1534VwXEZNecigdUBBv3odU=
-			</data>
-		</dict>
-		<key>Headers/APSUserTagServiceImpl.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ANf2VvEdXEoksc0wt+oZzI0xioI=
-			</data>
-			<key>hash2</key>
-			<data>
-			c98uLGBNmWwuuY01/pgK9B9ms9N18DcFz1FHrPviQ9k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

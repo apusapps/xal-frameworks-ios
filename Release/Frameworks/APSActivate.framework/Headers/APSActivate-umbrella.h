@@ -10,14 +10,10 @@
 #endif
 #endif
 
-#import "APSActivate.h"
 #import "APSActivateConfigDelegate.h"
-#import "APSActivateDefaultConfig.h"
-#import "APSActivateDelegate.h"
 #import "APSActivateFactory.h"
-#import "APSActivateStatisticsConstants.h"
+#import "APSActivateDelegate.h"
 #import "APSUserTagConfigDelegate.h"
-#import "APSUserTagServiceImpl.h"
 
 FOUNDATION_EXPORT double APSActivateVersionNumber;
 FOUNDATION_EXPORT const unsigned char APSActivateVersionString[];
